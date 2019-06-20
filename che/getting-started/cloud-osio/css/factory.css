@@ -1,0 +1,121 @@
+.ribbon-box {
+    position: relative;
+}
+
+.factory-desc {
+    height: 75px;
+}
+
+.factory-category-example {
+    color: #ccc;
+}
+
+.factory-category-framework {
+    color: #87CEEB;
+}
+
+.factory-info {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ribbon {
+    position: absolute;
+    right: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #525C86;
+    position: absolute;
+    top: 19px; right: -21px;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #8F5408;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #8F5408;
+}
+.ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #8F5408;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #8F5408;
+}
+
+.ribbon span a {
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.factories-choice {
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+}
+
+.factories-choice a {
+    border: none;
+    cursor: pointer;
+}
+
+.factories-choice .btn:hover, .btn:focus, .btn.focus {
+    color: inherit;
+}
+
+.factories-choice .dropdown-menu .divider {
+    margin: 0;
+}
+
+.factories-choice button {
+    outline: none;
+    line-height: 24px;
+
+}
+
+.factories-choice .btn {
+    outline: none;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+}
+
+.factories-filter-group {
+    text-align: right;
+}
+
+.factories-search-input {
+    height: 50px;
+    padding-left: 40px;
+}
+
+.factories-innerform {
+    float: left;
+    margin-left: 10px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 2;
+    color: #e3e3e3;
+    font-size: 25px;
+}

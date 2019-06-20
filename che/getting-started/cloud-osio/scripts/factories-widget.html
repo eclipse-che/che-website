@@ -1,0 +1,51 @@
+<div class="block">
+  <h2>Create a workspace from a template</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <form>
+            <div class="form-group">
+                <input ng-model="search" class="factories-search-input form-control" placeholder="Search factory">
+                <span class="fa fa-search factories-innerform"></span>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-3 factories-filter-group">
+        <div class="factories-choice btn-group" data-ng-class="{open: factoriesController.languageOpen}">
+            <button class="btn">Filter by Language</button>
+            <button class="btn dropdown-toggle" data-ng-click="factoriesController.languageOpen=!factoriesController.languageOpen"><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                <li><a ng-click="factoriesController.checkAllLanguages()"><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Check All</a></li>
+                <li><a ng-click="factoriesController.enabledLanguages=[]"><i class="fa fa-times-circle" aria-hidden="true"></i>&nbsp;Uncheck All</a></li>
+                <li class="divider"></li>
+                <li data-ng-repeat="language in factoriesController.availableLanguages"><a ng-click="factoriesController.toggleSelectedLanguage(language)"><i ng-if="factoriesController.isCheckedLanguage(language)" class="fa fa-check" aria-hidden="true"></i>&nbsp;{{language}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-3 factories-filter-group">
+
+        <div class="factories-choice btn-group" data-ng-class="{open: factoriesController.categoryOpen}">
+            <button class="btn">Filter by Category</button>
+            <button class="btn dropdown-toggle" data-ng-click="factoriesController.categoryOpen=!factoriesController.categoryOpen"><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                <li><a ng-click="factoriesController.checkAllCategories()"><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Check All</a></li>
+                <li><a ng-click="factoriesController.enabledCategories=[]"><i class="fa fa-times-circle" aria-hidden="true"></i>&nbsp;Uncheck All</a></li>
+                <li class="divider"></li>
+                <li data-ng-repeat="category in factoriesController.availableCategories"> <a ng-click="factoriesController.toggleSelectedCategory(category)">{{category}}&nbsp;<i ng-if="factoriesController.isCheckedCategory(category)" class="fa fa-check" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <span ng-repeat="factory in factoriesController.factories  | orderBy:['-badgedRepository','name'] | factoryCategoryFilter:factoriesController.enabledCategories | factoryLanguageFilter:factoriesController.enabledLanguages | filter:search">
+        <getting-started-factory factory="factory"></getting-started-factory>
+    </span>
+</div>

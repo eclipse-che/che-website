@@ -1,0 +1,17 @@
+<div class="col-md-4 col-sm-6">
+    <div class="border media ribbon-box">
+        <div ng-if="factoryController.factory.badgedRepository" class="ribbon"><span><a href="{{factoryController.factory.badgeLink}}">BADGED</a></span></div>
+        <div class="media-left">
+            <img src="{{factoryController.factory.logo}}" alt="Logo for {{factoryController.factory.name}}">
+            <!--<i class="factory-category-{{factoryController.factory.category}} factory-info fa fa-info-circle" aria-hidden="true"></i>-->
+        </div>
+        <div class="media-body">
+            <h4>
+                <a ng-if="factoryController.factory.website" href="{{factoryController.factory.website}}">{{factoryController.factory.name}}</a>
+                <span ng-hide="factoryController.factory.website">{{factoryController.factory.name}}</span>
+            </h4>
+            <p class="small factory-desc">{{factoryController.factory.desc}}.</p>
+        </div>
+        <a href="{{factoryController.factory.factory}}" class="btn-gray80">Launch Workspace</a>
+    </div>
+</div> <!-- /.col -->

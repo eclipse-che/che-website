@@ -1,0 +1,397 @@
+{
+  "disclaimer":"DO NOT CHANGE ANYTHING IN THIS FILE, IT IS AUTOMATICALLY GENERATED",
+  "factories":
+  [
+     {
+       "name": ".NET",
+       "desc": "Hello world console app on Linux with Mono",
+       "logo": "images/mo97t9pkaijr7q1c.png",
+       "project": "https://github.com/che-samples/console-dotnet-simple",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=mo97t9pkaijr7q1c",
+       "languages": [
+            ".net"
+
+        ]
+     },
+     {
+       "name": "Angular 2",
+       "desc": "Official Angular2 quick start tutorial",
+       "logo": "images/2i2ikikl4kif87l9.png",
+       "project": "https://github.com/angular/quickstart",
+       "website": "https://angular.io/docs/ts/latest/quickstart.html",
+       "category": "tutorial",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=2i2ikikl4kif87l9",
+       "languages": [
+            "javascript"
+
+        ]
+     },
+     {
+       "name": "ASP.NET",
+       "desc": "Hello world web app on Linux with Mono",
+       "logo": "images/m9ylnmjtmzvmq99i.png",
+       "project": "https://github.com/che-samples/web-aspnet-simple",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=m9ylnmjtmzvmq99i",
+       "languages": [
+            "asp.net"
+
+        ]
+     },
+     {
+       "name": "C++",
+       "desc": "Hello world console app with auto-build and run",
+       "logo": "images/21w2nx87yto2xi1z.png",
+       "project": "https://github.com/che-samples/console-cpp-simple.git",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=21w2nx87yto2xi1z",
+       "languages": [
+            "c++"
+
+        ]
+     },
+     {
+       "name": "cfp.io",
+       "desc": "Simplify requesting papers for conferences",
+       "logo": "images/tdwv5klhq3zcuowr.png",
+       "project": "https://github.com/cfpio/callForPaper",
+       "website": "http://www.cfp.io",
+       "category": "framework",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=tdwv5klhq3zcuowr",
+       "languages": [
+            "java",
+            "javascript"
+
+        ]
+     },
+     {
+       "name": "Elasticsearch",
+       "desc": "Open Source, Distributed, RESTful Search Engine",
+       "logo": "images/7pabc2kl40gb6yep.png",
+       "project": "https://github.com/elastic/elasticsearch",
+       "website": "https://www.elastic.co/products/elasticsearch",
+       "category": "framework",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=7pabc2kl40gb6yep",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "eXo Task add-on",
+       "desc": "Tasks management add-on",
+       "logo": "images/vu1kgww8udkbd6ie.png",
+       "project": "https://github.com/exoplatform/task",
+       "website": "https://www.exoplatform.com",
+       "category": "samples",
+       "badgedRepository": true,
+       "badgeLink": "https://github.com/exoplatform/task",
+       "factory": "http://codenvy.io/f?id=vu1kgww8udkbd6ie",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "ISTEX",
+       "desc": "API demo for the French digital scientific library",
+       "logo": "images/xc7ga4dx6qrgb8ii.png",
+       "project": "https://github.com/istex/istex-api-demo",
+       "website": "http://www.istex.fr",
+       "category": "framework",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=xc7ga4dx6qrgb8ii",
+       "languages": [
+            "javascript"
+
+        ]
+     },
+     {
+       "name": "ISTEX",
+       "desc": "API mock for the French digital scientific library",
+       "logo": "images/ir9mnlkdt6hxm0z9.png",
+       "project": "https://github.com/istex/istex-api-faker",
+       "website": "http://www.istex.fr",
+       "category": "framework",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=ir9mnlkdt6hxm0z9",
+       "languages": [
+            "javascript"
+
+        ]
+     },
+     {
+       "name": "Java + Gradle",
+       "desc": "Hello world console app with auto-build and run",
+       "logo": "images/5use7stej9bi9mxd.png",
+       "project": "https://github.com/che-samples/console-java-gradle.git",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=5use7stej9bi9mxd",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Java + Maven",
+       "desc": "Hello world console app with auto-build and run",
+       "logo": "images/omriatu352kkthua.png",
+       "project": "https://github.com/che-samples/console-java-simple.git",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=omriatu352kkthua",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Javaslang",
+       "desc": "A functional library for Java 8+",
+       "logo": "images/rp0k4m6gh6rzifmi.png",
+       "project": "https://github.com/javaslang/javaslang",
+       "website": "http://www.javaslang.io/",
+       "category": "framework",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=rp0k4m6gh6rzifmi",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Jenkins",
+       "desc": "Continuous Integration and Continuous Delivery",
+       "logo": "images/fnan3jal610smuq2.png",
+       "project": "https://github.com/jenkinsci/jenkins",
+       "website": "https://jenkins.io/",
+       "category": "framework",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=fnan3jal610smuq2",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Node.js",
+       "desc": "Hello world web app with auto-build and run",
+       "logo": "images/af9r928owfulum17.png",
+       "project": "https://github.com/che-samples/web-nodejs-simple.git",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=af9r928owfulum17",
+       "languages": [
+            "javascript"
+
+        ]
+     },
+     {
+       "name": "PHP",
+       "desc": "Hello world web app with auto-build and run",
+       "logo": "images/5ayat0naxlljn3p2.png",
+       "project": "https://github.com/che-samples/web-php-simple.git",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=5ayat0naxlljn3p2",
+       "languages": [
+            "php"
+
+        ]
+     },
+     {
+       "name": "Spring",
+       "desc": "Java Spring PetClinic web app example",
+       "logo": "images/r6p0l1sfnwm99k94.png",
+       "project": "https://github.com/che-samples/web-java-spring-petclinic.git",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=r6p0l1sfnwm99k94",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Spring Boot",
+       "desc": "Java web app example for rapid development",
+       "logo": "images/sz7uzyofb8olekkn.png",
+       "project": "https://github.com/che-samples/web-java-spring-boot.git",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=sz7uzyofb8olekkn",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Spring Rest Guide",
+       "desc": "Learn how to create a RESTful web service with Spring",
+       "logo": "images/9fq0busbm3tz7i8c.png",
+       "project": "https://github.com/spring-guides/gs-rest-service",
+       "website": "http://spring.io/guides/gs/rest-service/",
+       "category": "tutorial",
+       "badgedRepository": true,
+       "badgeLink": "https://github.com/spring-guides/gs-rest-service",
+       "factory": "http://codenvy.io/f?id=9fq0busbm3tz7i8c",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "TomEE",
+       "desc": "JAX-RS and Angular web app sample",
+       "logo": "images/07xzbw8pq5wn02y5.png",
+       "project": "https://github.com/tomitribe/tomee-jaxrs-angular-starter-project.git",
+       "website": "http://www.tomitribe.com/",
+       "category": "samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=07xzbw8pq5wn02y5",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "TomEE",
+       "desc": "Moviefun Java sample app",
+       "logo": "images/suloomuf7cvcfghn.png",
+       "project": "https://github.com/apache/tomee",
+       "website": "http://tomee.apache.org",
+       "category": "samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=suloomuf7cvcfghn",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "TomEE",
+       "desc": "Stateless Java bean sample app",
+       "logo": "images/lemf30nh52rvsx42.png",
+       "project": "https://github.com/apache/tomee",
+       "website": "http://tomee.apache.org",
+       "category": "samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=lemf30nh52rvsx42",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Vaadin",
+       "desc": "Official address book UI demo",
+       "logo": "images/ej6koycnt4maubns.png",
+       "project": "https://github.com/vaadin/addressbook",
+       "website": "https://vaadin.com/home",
+       "category": "samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=ej6koycnt4maubns",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Vert.x verticle",
+       "desc": "Example web app for reactive applications on the JVM",
+       "logo": "images/9skz1321dxbqpj5j.png",
+       "project": "https://github.com/vert-x3/vertx-examples",
+       "website": "http://vertx.io/",
+       "category": "samples",
+       "badgedRepository": true,
+       "badgeLink": "https://github.com/vert-x3/vertx-examples",
+       "factory": "http://codenvy.io/f?id=9skz1321dxbqpj5j",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Wildfly",
+       "desc": "Java hello world web app example",
+       "logo": "images/gbfcsdb76f2iy1f2.png",
+       "project": "https://github.com/che-samples/web-java-wildfly.git",
+       "website": "",
+       "category": "che samples",
+       "badgedRepository": false,
+       "badgeLink": "",
+       "factory": "http://codenvy.io/f?id=gbfcsdb76f2iy1f2",
+       "languages": [
+            "java"
+
+        ]
+     },
+     {
+       "name": "Yeoman Alfresco",
+       "desc": "A Yeoman generator for Open-source content management",
+       "logo": "images/zia672875qiibfzv.png",
+       "project": "https://github.com/binduwavell/generator-alfresco",
+       "website": "http://www.alfresco.com/",
+       "category": "framework",
+       "badgedRepository": true,
+       "badgeLink": "https://github.com/binduwavell/generator-alfresco",
+       "factory": "http://codenvy.io/f?id=zia672875qiibfzv",
+       "languages": [
+            "javascript"
+
+        ]
+     },
+     {
+       "name": "Nuxeo Platform",
+       "desc": "A content management platform to build enterprise applications",
+       "logo": "images/nuxeo.png",
+       "project": "https://github.com/nuxeo/nuxeo",
+       "website": "http://www.nuxeo.com/",
+       "category": "framework",
+       "badgedRepository": true,
+       "badgeLink": "https://github.com/nuxeo/nuxeo",
+       "factory": "https://codenvy.io/f?id=r3pbh9wv7tjvbws7",
+       "languages": [
+            "java"
+
+        ]
+     }
+  ]
+}
