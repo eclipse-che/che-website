@@ -3,7 +3,7 @@
 
 specVersion: 0.0.1
 
-name: che-site-docs
+name: che-website
 
 projects:
   - source:
