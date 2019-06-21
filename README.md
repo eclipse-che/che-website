@@ -23,3 +23,5 @@ Once your PR is merged, we have jobs at https://ci.eclipse.org/che that will upd
 
 ### Che documentation ?
 The Che documentation is not included. We merge the site and the doc afterwards in our ci. To contribute to the doc: https://github.com/eclipse/che-docs.
+
+test
