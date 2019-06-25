@@ -1,4 +1,4 @@
-<?php 
+<?php
   include '../includes/variables.php';
 
   // Define page title
@@ -12,10 +12,9 @@
 
 <div class="jumbotron">
   <div class="container-fluid">
+    <img alt="" class="img-responsive" src="../images/hero-technology@2x.png" />
     <h1>Eclipse Che: Development Witchcraft</h1>
     <h3>Eclipse Che is an IDE and developer workspace server that allows anyone to contribute to a project without having to install software. <a href="../getting-started/">Get Started</a></h3>
-
-    <img alt="" class="img-responsive" src="../images/hero-technology@2x.png" />
   </div> <!-- .container-fluid -->
 </div> <!-- .jumbotron -->
 
@@ -24,27 +23,27 @@
     <h2>A new kind of developer workspace.</h2>
 
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <a href="../images/features/img-features-a-new-kind-of-workspace.png" target="_blank"><img alt="" height="300" src="../images/features/img-features-a-new-kind-of-workspace.png" class="img-responsive" /></a>
         <h3>Production Runtimes</h3>
         <p>Eclipse Che works with any single or multi-container runtime. Use an image from DockerHub, your own private registry or one of the included Che images... <a href="../features/">Read More</a></p>
       </div>
 
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <a href="../images/features/img-features-docker-powered.png" target="_blank"><img alt="" height="333" width="500" src="../images/features/img-features-docker-powered.png" class="img-responsive" /></a>
         <h3>“Dev Mode” your Workspace</h3>
         <p>Workspace runtimes are container-powered, run them in Kubernetes, Docker or OpenShift. Use our all-in-one stacks or author your own. Persist state... <a href="../features/">Read More</a></p>
       </div>
-    </div> <!-- .row -->
 
-    <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <a href="../images/features/img-features-cloud-ide.png" target="_blank"><img alt="" height="333" width="500" src="../images/features/img-features-cloud-ide.png" class="img-responsive" /></a>
         <h3>Cloud IDE</h3>
         <p>A no-installation browser IDE and IOE accessible from any local or remote device. Thin, fast, and beautiful - it's the IDE our own engineers wanted... <a href="../features/">Read More</a></p>
       </div>
+    </div> <!-- .row -->
 
-      <div class="col-sm-6">
+    <div class="row">
+      <div class="col-sm-4">
         <a href="../images/features/img-features-eclipse-ide.jpg" target="_blank"><img alt="" height="333" width="500" src="../images/features/img-features-eclipse-ide.jpg" class="img-responsive" /></a>
         <h3>Any Desktop IDE</h3>
         <p>Access the workspace file system from your desktop IDE. Using Che remotely? You can mount the Che workspace over SSH. <a href="../features/index.html">Read More</a></p>
