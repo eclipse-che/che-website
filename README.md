@@ -25,7 +25,10 @@ For instance, in command line with the `-s` option:
 $ git commit -s -m "Auto share multiple projects in single job"
 ```
 
-You can find more details in https://wiki.eclipse.org/Development_Resources/Contributing_via_Git.
+You can find more details in
+ https://github.com/eclipse/che/wiki/Eclipse-Contributor-Agreement
+ and
+ https://wiki.eclipse.org/Development_Resources/Contributing_via_Git.
 
 ### Updating the website
 Once your PR is merged, we have jobs at https://ci.eclipse.org/che that will update the site. It may take few hours.
