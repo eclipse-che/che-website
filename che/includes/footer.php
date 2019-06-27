@@ -32,12 +32,7 @@
           <ul>
             <li><a href="<?php echo $rootPath; ?>/community/">Community</a></li>
             <li><a href="https://github.com/eclipse/che/blob/master/CONTRIBUTING.md" target="_blank">Get Involved</a></li>
-            <li><a href="https://www.youtube.com/watch?v=5Zkl3yJbLRc&list=PLWpdeL3mennY0UJVZ3lqExE_SdLXwiVdI" target="_blank">Watch EclipseCon 2018</a></li>
-            <li><a href="https://www.infoq.com/presentations/eclipse-che-eclipsecon-2016" target="_blank">Watch EclipseCon 2016</a></li>
-            <li><a href="<?php echo $rootPath; ?>/extend/codenvy">Codenvy</a></li>
-            <li><a href="https://openshift.io/" target="_blank">Red Hat</a></li>
-            <li><a href="<?php echo $rootPath; ?>/extend/sap/">SAP</a></li>
-            <li><a href="<?php echo $rootPath; ?>/extend/silexica/">Silexica</a></li>
+            <li><a href="https://www.youtube.com/watch?v=5Zkl3yJbLRc&list=PLWpdeL3mennY0UJVZ3lqExE_SdLXwiVdI" target="_blank">Watch CheConf18</a></li>
           </ul>
           <ul>
             <li><a href="http://www.eclipse.org" target="_blank">Eclipse Foundation</a></li>
