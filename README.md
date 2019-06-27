@@ -17,7 +17,7 @@ You will notice that a `/projects/che` symbolic link has been added. This is to 
 You can commit with Theia git view or the terminal (with the git container). Create a dedicated branch and a fork if you are not commiter.
 In any case, you will need to create a Pull Request.
 
-Note that before your contribution can be accepted by the project, you need to electronically sign the [Eclipse Contributor Agreement](http://www.eclipse.org/legal/ECA.php) (ECA).
+Note that before your contribution can be accepted by the project, you need to electronically sign the [Eclipse Contributor Agreement](https://github.com/eclipse/che/wiki/Eclipse-Contributor-Agreement) (ECA). 
 
 Also, your commit should be signed-off.
 For instance, in command line with the `-s` option:
@@ -25,10 +25,6 @@ For instance, in command line with the `-s` option:
 $ git commit -s -m "Auto share multiple projects in single job"
 ```
 
-You can find more details in
- https://github.com/eclipse/che/wiki/Eclipse-Contributor-Agreement
- and
- https://wiki.eclipse.org/Development_Resources/Contributing_via_Git.
 
 ### Updating the website
 Once your PR is merged, we have jobs at https://ci.eclipse.org/che that will update the site. It may take few hours.
