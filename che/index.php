@@ -1,4 +1,4 @@
-<?php 
+<?php
 
   include 'includes/variables.php';
 
@@ -13,9 +13,8 @@
 
 <div class="jumbotron">
   <div class="container-fluid">
-    <h1>Eclipse Next-Generation IDE</h1>
+    <h1>The Cloud IDE for Developer Teams</h1>
     <h3>Eclipse Che is a Kubernetes-native IDE and developer collaboration platform built for teams and organizations. <a href="<?php echo $rootPath; ?>/getting-started/">Get Started</a></h3>
-
     <img alt="" class="img-responsive" src="<?php echo $rootPath; ?>/images/hero-home@2x.jpg" />
   </div> <!-- .container-fluid -->
 </div> <!-- .jumbotron -->
@@ -27,7 +26,6 @@
         <h3>SaaS</h3>
         <p>Self-service Che workspaces hosted at che.openshift.io</p>
         <a href="<?php echo $rootPath; ?>/getting-started/cloud/" class="btn-yellow">Create Free Account</a></li>
-
       </div>
       <div class="col-md-6">
         <h3>Local Install</h3>
