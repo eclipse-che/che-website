@@ -23,8 +23,7 @@ components:
     image: eclipse/php
     mountSources: true
     memoryLimit: 256M
-    command: ['tail']
-    args: ['-f', '/dev/null']
+    args: ['sleep', 'infinity']
 
 commands:
 
