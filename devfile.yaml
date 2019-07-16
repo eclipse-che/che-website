@@ -33,6 +33,7 @@ commands:
       - type: exec
         command: >-
           if [ ! -f "/projects/che" ]; then ln -s /projects/che-website/che ; fi ;
+          cp /projects/che-website/redirect.html /projects/index.html;
           service apache2 start && tail -f /var/log/apache2/access.log -f /var/log/apache2/error.log
         component: php
         workdir: /projects/
