@@ -11,7 +11,7 @@
        "category": "tutorial",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factory3db802wkfbg8wox5",
+       "factory": "https://che.openshift.io/f?id=factorybkhfg8svxkfz41dx",
        "languages": [
             "javascript"
 
@@ -26,7 +26,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryewgsxx4ti1iwpp56",
+       "factory": "https://che.openshift.io/f?id=factory65rviowqt398yale",
        "languages": [
             "c++"
 
@@ -41,7 +41,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factorydxms3luqlij4g39w",
+       "factory": "https://che.openshift.io/f?id=factoryjlgp2agbm6lnlokg",
        "languages": [
             "java"
 
@@ -56,7 +56,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factory7al1zzoy209qytj1",
+       "factory": "https://che.openshift.io/f?id=factoryk5daxwmuidioljoo",
        "languages": [
             "java"
 
@@ -71,7 +71,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factory1wd0vvy2z63veu08",
+       "factory": "https://che.openshift.io/f?id=factoryusfo0dl099mdcnq8",
        "languages": [
             "javascript"
 
@@ -86,7 +86,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factory8wsgnw5wrtquffer",
+       "factory": "https://che.openshift.io/f?id=factoryl7dhnqpphwjximhi",
        "languages": [
             "php"
 
@@ -101,7 +101,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factorymtyoro1y0qt8tq2j",
+       "factory": "https://che.openshift.io/f?id=factoryjyeo3o6yedu3kpz5",
        "languages": [
             "java"
 
@@ -116,7 +116,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factorypedk0ijio2y27tzf",
+       "factory": "https://che.openshift.io/f?id=factoryxq3y773hd50ryede",
        "languages": [
             "java"
 
@@ -131,7 +131,7 @@
        "category": "tutorial",
        "badgedRepository": true,
        "badgeLink": "https://github.com/spring-guides/gs-rest-service",
-       "factory": "https://che.openshift.io/f?id=factory9ppesf180lud4qdh",
+       "factory": "https://che.openshift.io/f?id=factorynbri997e3tg5rn34",
        "languages": [
             "java"
 
@@ -146,7 +146,7 @@
        "category": "samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factory15l904ynu8vbd3dr",
+       "factory": "https://che.openshift.io/f?id=factoryjossrvkie5aydgug",
        "languages": [
             "java"
 
@@ -161,7 +161,7 @@
        "category": "samples",
        "badgedRepository": true,
        "badgeLink": "https://github.com/vert-x3/vertx-examples",
-       "factory": "https://che.openshift.io/f?id=factory3q5u5r3l7vim1u7g",
+       "factory": "https://che.openshift.io/f?id=factoryqn54y270f4eh4d00",
        "languages": [
             "java"
 
@@ -176,7 +176,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryuhcji9p0z72f43gc",
+       "factory": "https://che.openshift.io/f?id=factoryixgl4of886a5mzgc",
        "languages": [
             "java"
 
