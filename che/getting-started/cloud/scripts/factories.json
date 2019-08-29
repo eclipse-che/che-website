@@ -3,45 +3,45 @@
   "factories":
   [
      {
-       "name": "Angular 2",
-       "desc": "Official Angular2 quick start tutorial",
+       "name": "Angular",
+       "desc": "Angular codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the RealWorld spec and API",
        "logo": "images/2i2ikikl4kif87l9.png",
-       "project": "https://github.com/angular/quickstart",
-       "website": "https://angular.io/docs/ts/latest/quickstart.html",
+       "project": "https://github.com/gothinkster/angular-realworld-example-app.git",
+       "website": "https://angular.realworld.io/",
        "category": "tutorial",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factorybkhfg8svxkfz41dx",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/angular/devfile.yaml",
        "languages": [
             "javascript"
 
         ]
      },
      {
-       "name": "C++",
-       "desc": "Hello world console app with auto-build and run",
-       "logo": "images/21w2nx87yto2xi1z.png",
-       "project": "https://github.com/che-samples/console-cpp-simple.git",
-       "website": "",
-       "category": "che samples",
+       "name": "Go",
+       "desc": "Official Go example projects",
+       "logo": "images/golang.png",
+       "project": "https://github.com/golang/example.git",
+       "website": "https://golang.org/",
+       "category": "tutorial",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factory65rviowqt398yale",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/go/devfile.yaml",
        "languages": [
-            "c++"
+            "go"
 
         ]
      },
      {
        "name": "Java + Gradle",
-       "desc": "Hello world console app with auto-build and run",
+       "desc": "Hello world console Gradle app with 'build' and 'run' commands",
        "logo": "images/5use7stej9bi9mxd.png",
        "project": "https://github.com/che-samples/console-java-gradle.git",
        "website": "",
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryjlgp2agbm6lnlokg",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/java-gradle/devfile.yaml",
        "languages": [
             "java"
 
@@ -49,14 +49,14 @@
      },
      {
        "name": "Java + Maven",
-       "desc": "Hello world console app with auto-build and run",
+       "desc": "Hello world console app with 'build' and 'run' commands",
        "logo": "images/omriatu352kkthua.png",
        "project": "https://github.com/che-samples/console-java-simple.git",
        "website": "",
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryk5daxwmuidioljoo",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/java-maven/devfile.yaml",
        "languages": [
             "java"
 
@@ -64,14 +64,14 @@
      },
      {
        "name": "Node.js",
-       "desc": "Hello world web app with auto-build and run",
+       "desc": "Hello world web app with 'build' and 'run' commands",
        "logo": "images/af9r928owfulum17.png",
        "project": "https://github.com/che-samples/web-nodejs-sample.git",
        "website": "",
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryusfo0dl099mdcnq8",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/nodejs/devfile.yaml",
        "languages": [
             "javascript"
 
@@ -79,14 +79,14 @@
      },
      {
        "name": "PHP",
-       "desc": "Hello world web app with auto-build and run",
+       "desc": "Hello world web app with 'build' and 'run' commands",
        "logo": "images/5ayat0naxlljn3p2.png",
        "project": "https://github.com/che-samples/web-php-simple.git",
        "website": "",
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryl7dhnqpphwjximhi",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/php/devfile.yaml",
        "languages": [
             "php"
 
@@ -96,12 +96,12 @@
        "name": "Spring",
        "desc": "Java Spring PetClinic web app example",
        "logo": "images/r6p0l1sfnwm99k94.png",
-       "project": "https://github.com/che-samples/web-java-spring-petclinic.git",
+       "project": "https://github.com/spring-projects/spring-petclinic.git",
        "website": "",
-       "category": "che samples",
+       "category": "tutorial",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryjyeo3o6yedu3kpz5",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/spring-petclinic/devfile.yaml",
        "languages": [
             "java"
 
@@ -116,7 +116,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryxq3y773hd50ryede",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/spring-boot/devfile.yaml",
        "languages": [
             "java"
 
@@ -131,7 +131,7 @@
        "category": "tutorial",
        "badgedRepository": true,
        "badgeLink": "https://github.com/spring-guides/gs-rest-service",
-       "factory": "https://che.openshift.io/f?id=factorynbri997e3tg5rn34",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/spring-rest-guide/devfile.yaml",
        "languages": [
             "java"
 
@@ -146,7 +146,7 @@
        "category": "samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryjossrvkie5aydgug",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/vaadin-addressbook/devfile.yaml",
        "languages": [
             "java"
 
@@ -156,27 +156,27 @@
        "name": "Vert.x verticle",
        "desc": "Example web app for reactive applications on the JVM",
        "logo": "images/9skz1321dxbqpj5j.png",
-       "project": "https://github.com/vert-x3/vertx-examples",
+       "project": "https://github.com/openshift-vertx-examples/vertx-http-example",
        "website": "http://vertx.io/",
        "category": "samples",
        "badgedRepository": true,
        "badgeLink": "https://github.com/vert-x3/vertx-examples",
-       "factory": "https://che.openshift.io/f?id=factoryqn54y270f4eh4d00",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/vertx/devfile.yaml",
        "languages": [
             "java"
 
         ]
      },
      {
-       "name": "Wildfly",
-       "desc": "Java hello world web app example",
-       "logo": "images/gbfcsdb76f2iy1f2.png",
-       "project": "https://github.com/che-samples/web-java-wildfly.git",
-       "website": "",
+       "name": "Thorntail",
+       "desc": "Thorntail REST web app example",
+       "logo": "images/thorntail.png",
+       "project": "https://github.com/thorntail-examples/rest-http",
+       "website": "https://thorntail.io/",
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?id=factoryixgl4of886a5mzgc",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/thorntail/devfile.yaml",
        "languages": [
             "java"
 
