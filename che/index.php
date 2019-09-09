@@ -30,7 +30,7 @@
       <div class="col-md-6">
         <h3>Local Install</h3>
         <p>Install Eclipse Che on localhost or shared K8S cluster.</p>
-        <a href="<?php echo $rootPath; ?>/docs/quick-start.html" class="btn-yellow">Download</a>
+        <a href="<?php echo $rootPath; ?>/docs/che-7/quick-start.html" class="btn-yellow">Download</a>
 
       </div>
 
