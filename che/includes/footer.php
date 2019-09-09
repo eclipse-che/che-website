@@ -7,7 +7,7 @@
           <ul>
             <li><a href="<?php echo $rootPath; ?>/getting-started/">Get Started</a></li>
             <li><a href="<?php echo $rootPath; ?>/getting-started/cloud/">SaaS</a></li>
-            <li><a href="<?php echo $rootPath; ?>/docs/quick-start.html" target="_blank">Install</a></li>
+            <li><a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" target="_blank">Install</a></li>
             <li><a href="<?php echo $rootPath; ?>/docs/" target="_blank">Docs</a></li>
             <li><a href="<?php echo $rootPath; ?>/extend/codenvy">Commercial Support</a></li>
           </ul>

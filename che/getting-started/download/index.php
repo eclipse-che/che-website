@@ -32,7 +32,7 @@
       <img src="../../images/getting-started/icon-local-install.jpg" alt="Eclipse Che | Local Install">
       <h3>Local Install</h3>
       <p>Install Eclipse Che on your computer or a development server.</p>
-      <a href="<?php echo $rootPath; ?>/docs/quick-start.html" class="btn-yellow">Downloads</a> 
+      <a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" class="btn-yellow">Downloads</a> 
     </div>
 
     <!--<div class="col-md-4">
