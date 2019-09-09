@@ -21,10 +21,16 @@
 <div class="bg-dark-space">
   <div class="container-fluid content">
     <div class="row">
-      <div class="col-md-11">
-        <h2>Eclipse Che</h2>
-        <h1 class="h3">The Kubernetes-Native IDE for Developer Teams</h1>
-        <p>Eclipse Che makes Kubernetes development accessible for developer teams, providing one-click developer workspaces and eliminating local environment configuration for your entire team. Che brings your Kubernetes application into your development environment and provides an in-browser IDE, allowing you to code, build, test and run applications exactly as they run on production from any machine.</p>
+      <div class="col-md-6">
+        <h3>SaaS</h3>
+        <p>Self-service Che workspaces hosted at che.openshift.io</p>
+        <a href="<?php echo $rootPath; ?>/getting-started/cloud/" class="btn-yellow">Create Free Account</a></li>
+      </div>
+      <div class="col-md-6">
+        <h3>Local Install</h3>
+        <p>Install Eclipse Che on localhost or shared K8S cluster.</p>
+        <a href="<?php echo $rootPath; ?>/docs/che-7/quick-start.html" class="btn-yellow">Download</a>
+
       </div>
     </div>
   </div>
