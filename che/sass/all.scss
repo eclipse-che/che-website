@@ -8,7 +8,7 @@
 // SETUP - COLORS
 $green:       #49a348;
 $orange:      #E45635;  // annoucement bg
-$dark-space:  #282e44;  // 
+$dark-space:  #282e44;  //
 $deep-purple: #292E4B;  // content bg
 $purple:      #525C86;  // links
 $yellow:      #FDB940;  // links
@@ -16,7 +16,7 @@ $charcoal:    #292C2F;  // header bg, footer bg
 $gray80:      #58595B;  // text dark, heading
 $gray50:      #939598;  // text med, paragraph,
 $gray20:      #D1D3D4;  // footer link
-$gray15:      #dcddde;  
+$gray15:      #dcddde;
 $gray5:       #F1F2F2;  // light gray bg
 
 
@@ -134,7 +134,7 @@ hr {margin: 0;
 
 
 // COMPONENT - BUTTONS
-.btn-outline-dark, .btn-green, .btn-gray80, .btn-yellow {display: inline-block; color: #fff !important; height: 50px; line-height: 50px; text-align: center; border-radius: 5px; 
+.btn-outline-dark, .btn-green, .btn-gray80, .btn-yellow {display: inline-block; color: #fff !important; height: 50px; line-height: 50px; text-align: center; border-radius: 5px;
   &:hover {color: #fff !important;}
 }
 .btn-outline-dark {padding: 0; width: 190px; font-size: 16px; border: 1px solid $purple;
@@ -183,12 +183,12 @@ ul.tabs+.tab-content {margin-top: -1px; padding-top: 40px; border-top: 1px solid
 }
 
 
-// COMPONENT - MARKETO FORM 
+// COMPONENT - MARKETO FORM
 /*
 .mktoForm {font-family: inherit !important; width: 100% !important;
   .mktoAsterix, .mktoOffset, .mktoGutter {display: none !important;}
   .mktoFormCol, .mktoFieldWrap {width: 100%; margin-bottom: 8px;}
-  .mktoField {text-indent: 15px; width: 100% !important; height: 54px; border: 1px solid $gray15; border-radius: 4px; background-color: lighten($gray15,4%); color: $gray80; font-size: 18px !important; text-indent: 15px; 
+  .mktoField {text-indent: 15px; width: 100% !important; height: 54px; border: 1px solid $gray15; border-radius: 4px; background-color: lighten($gray15,4%); color: $gray80; font-size: 18px !important; text-indent: 15px;
     @include placeholdercolor($gray80);
     &:focus {outline: none; border: 1px solid $purple; background-color: #f1f2f2;}
   }
@@ -198,13 +198,13 @@ ul.tabs+.tab-content {margin-top: -1px; padding-top: 40px; border-top: 1px solid
   @media (min-width: 768px) {
     .mktoField {height: 64px; font-size: 20px !important;}
     .mktoButtonWrap.mktoSimple .mktoButton {font-size: 20px !important;}
-  } 
+  }
 }
 */
 
 
 
-// LAYOUT - GENERAL 
+// LAYOUT - GENERAL
 .logo {display: block; width: 166px; height: auto;
   @media (min-width: 768px) {width: 225px;}
 }
@@ -240,8 +240,8 @@ header {position: relative; height: 105px; background-color: $charcoal;
     }
     @media (min-width: 1050px) {display: none;}
   }
-  
-  nav.menu-desktop {display: none; font-size: 18px; 
+
+  nav.menu-desktop {display: none; font-size: 18px;
     ul {margin: 0; padding: 0; list-style: none;
       li {display: inline-block; padding-right: 20px;
         iframe {margin-bottom: -4px;}
@@ -264,7 +264,7 @@ footer {padding: 80px 0 0; background-color: $charcoal; color: $gray50; font-siz
   ul {margin: 0; padding: 0; list-style: none;}
 
   .tagline, .sitemap, .mailing-list, .copyright {margin-bottom: 40px;}
-  
+
   .sitemap {
     ul {float: left; width: 50%;}
     ul:not(:last-of-type) {margin-bottom: 30px;}
@@ -282,7 +282,7 @@ footer {padding: 80px 0 0; background-color: $charcoal; color: $gray50; font-siz
   .mktoForm {font-family: inherit !important; width: 100% !important; max-width: 360px;
     .mktoAsterix, .mktoOffset, .mktoGutter, .mktoLabel {display: none;}
     .mktoFormCol, .mktoFieldWrap {width: 100%; margin-top: 8px;}
-    .mktoField {text-indent: 15px; width: 100% !important; height: 44px; border: 1px solid #3b3b3b; border-radius: 4px; background-color: #3b3b3b; color: #fff; font-size: 18px; text-indent: 15px; 
+    .mktoField {text-indent: 15px; width: 100% !important; height: 44px; border: 1px solid #3b3b3b; border-radius: 4px; background-color: #3b3b3b; color: #fff; font-size: 18px; text-indent: 15px;
       &:focus {outline: none; border: 1px solid #3f3f3f; background-color: #3f3f3f;}
     }
     textarea.mktoField {padding: 15px 15px 15px 0; min-height: 180px;}
@@ -291,7 +291,7 @@ footer {padding: 80px 0 0; background-color: $charcoal; color: $gray50; font-siz
     @media (min-width: 768px) {
       .mktoField {font-size: 20px;}
       .mktoButtonWrap.mktoSimple .mktoButton {font-size: 20px;}
-    } 
+    }
   }
 
   @media (min-width: 768px) {font-size: 18px;
@@ -309,7 +309,7 @@ footer {padding: 80px 0 0; background-color: $charcoal; color: $gray50; font-siz
   h6 {margin-top: 0;}
   .fa-twitter {color: #55ACEE; font-size: 33px;}
   a {color: #55ACEE;}
-  @media (min-width: 768px) {padding: 0 50px;} 
+  @media (min-width: 768px) {padding: 0 50px;}
 }
 
 
@@ -322,8 +322,11 @@ body.index {
     @media (max-width: 1023px) {
       div[class^="col"]:not(:last-child) {margin-bottom: 40px;}
     }
+    div.row { margin-top: 60px; }
   }
-
+  .start-working div.row{
+      margin-top: 60px;
+  }
   .annoucement {@extend .bg-orange; padding: 30px 0;
     p {margin: 0;}
     a {border-bottom: 1px dashed $yellow;}
@@ -382,14 +385,34 @@ body.index {
     @media (min-width: 1024px) {
       li {width: 33.333%;}
       li:nth-child(3n+0) {clear: right;}
-      li:nth-child(3n-2) {clear: left;}    
+      li:nth-child(3n-2) {clear: left;}
     }
   }
+
+  div[class^="col"] {
+    div.border.media {padding: 15px 15px; border: 1px solid $gray20; border-radius: 5px;
+      .media-left {
+        padding-right: 15px;
+        img {
+          max-width: 50px;
+        }
+      }
+      .media-body {
+        vertical-align: middle;
+      }
+      h4 {margin: 0;}
+      p {margin-top: 5px; font-size: 85%;}
+
+
+    }
+  }
+  .start-working a[class^="btn"] { font-size: 85%; }
+
 }
 
 
 
-// PAGE - TECHNOLOGY 
+// PAGE - TECHNOLOGY
 body.technology {
   .jumbotron {padding-bottom: 0;}
 
@@ -572,7 +595,7 @@ body.getting-started-download {
 
 // PAGE - ECLIPSECON 2016
 body.eclipsecon2016 {
-  .jumbotron {background-image: url(../images/hero-home-bg@2x.png); background-position: center center; background-size: cover; 
+  .jumbotron {background-image: url(../images/hero-home-bg@2x.png); background-position: center center; background-size: cover;
     img {display: block; margin: 20px 0 30px; width: 430px; height: auto; max-width: 100%;}
     a {border-bottom: 1px dashed #D1D3D4;}
   }
@@ -622,7 +645,7 @@ body.eclipsecon2016 {
 
 
 
-// PAGE - EXTEND 
+// PAGE - EXTEND
 body.extend {
   .options img {height: 115px; width: auto; margin-bottom: 20px;}
 
