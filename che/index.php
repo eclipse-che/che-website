@@ -13,11 +13,158 @@
 
 <div class="jumbotron">
   <div class="container-fluid">
-    <h1>The Cloud IDE for Developer Teams</h1>
-    <h3>Eclipse Che is a Kubernetes-native IDE and developer collaboration platform built for teams and organizations. <a href="<?php echo $rootPath; ?>/getting-started/">Get Started</a></h3>
+    <h1>The Kubernetes-Native IDE for Developer Teams</h1>
     <img alt="" class="img-responsive" src="<?php echo $rootPath; ?>/images/hero-home@2x.jpg" />
   </div> <!-- .container-fluid -->
 </div> <!-- .jumbotron -->
+
+<div class="bg-dark-space">
+  <div class="container-fluid content">
+    <div class="row">
+      <div class="col-md-11">
+        <h2>Eclipse Che</h2>
+        <h1 class="h3">The Kubernetes-Native IDE for Developer Teams</h1>
+        <p>Eclipse Che makes kubernetes development accessible for developer teams, providing one-click developer workspaces and eliminating local environment configuration for your entire team. Che brings your Kubernetes application into your development environment and provides an in-browser IDE, allowing you to code, build, test and run applications exactly as they run on production from any machine.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="gray">
+<div class="container-fluid content start-working">
+  <h3>Start working with Che</h3>
+  <div class="row">
+    <div class="col-sm-4 col-md-3">
+        <div class="border media">
+         <a href="https://che.openshift.io/" class="media-body">
+           <p>Launch</p>
+           <h4>Custom</h4>
+         </a>
+         <p class="media-content">Create workspaces for any language/framework.</p>
+        </div>
+    </div>
+    <div class="col-sm-4 col-md-3">
+        <div class="border media">
+         <a href="https://che.openshift.io/f?id=factoryqn54y270f4eh4d00" class="media-body">
+           <p>Launch</p>
+           <h4>Vert.x Verticle</h4>
+         </a>
+         <p class="media-content">Example web app for reactive applications on the JVM.</p>
+        </div>
+    </div>
+    <div class="col-sm-4 col-md-3">
+        <div class="border media">
+         <a href="https://che.openshift.io/f?id=factorybkhfg8svxkfz41dx" class="media-body">
+           <p>Launch</p>
+           <h4>Angular 2</h4>
+         </a>
+         <p class="media-content">Official Angular 2 quick start tutorial.</p>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <a href="<?php echo $rootPath; ?>/getting-started/cloud/" class="btn-gray80">All SaaS Workspace Templates</a>
+        <a href="<?php echo $rootPath; ?>/docs/quick-start.html" class="btn-yellow">Download</a>
+    </div>
+  </div>
+</div>
+
+<div class="bg-dark-space">
+  <div class="container-fluid content">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>How Eclipse Che Works</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <ul>
+                <li>One-click centrally hosted workspaces</li>
+                <li>Kubernetes-native containerized development</li>
+                <li>In-browser extensible IDE</li>
+            </ul>
+            <p></p>
+        </div>
+        <div class="col-md-6">
+            <a href="<?php echo $rootPath; ?>/technology" class="btn-yellow">See how it works</a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-purple whats-new">
+  <div class="container-fluid content">
+    <h2>What's New</h2>
+    <div class="row">
+        <div class="col-md-6">
+          <img src="images/img-home-che6@2x.png" alt="image by doug walters" class="img-responsive">
+          <h3>Eclipse Che 7.0</h3>
+          <p>Che 7 takes the best of Kubernetes to code your Kubernetes applications the easy way.</p>
+          <a href="https://che.eclipse.org/eclipse-che-7-is-coming-and-its-really-hot-1-4-64d79b75ca02" target="_blank" class="btn-yellow">Learn about Che 7.0</a>
+        </div>
+        <div class="col-md-6">
+          <img src="images/img-home-che5@2x.png" alt="Che 7.0" class="img-responsive">
+          <h3>Eclipse Che</h3>
+          <p>Centralized developer environments running on Kubernetes. Devfile: Developer Workspaces as Code. Kubernetes-native tools for Kubernetes developer teams</p>
+          <a href="<?php echo $rootPath; ?>/technology" class="btn-yellow">Learn More</a>
+        </div>
+    </div>
+ </div>
+</div>
+
+<hr class="gray">
+<div class="container-fluid content contributors">
+  <div class="row">
+    <div class="col-md-12">
+        <h2>Contributors</h2>
+    </div>
+    <div class="col-md-12">
+        <ul>
+        <li><img src="images/logo-bitnami@2x.png" alt="Bitnami" style="width: 190px" class="img-responsive"></li>
+        <li><img src="images/logo-codenvy-black.png" alt="Codenvy" class="img-responsive"></li>
+        <li><img src="images/logo-docker@2x.png" alt="Docker" style="width: 190px" class="img-responsive"></li>
+        <li><img src="images/logo-eclipsesource@2x.png" alt="Eclipse Source" class="img-responsive"></li>
+        <li><img src="images/logo-exo@2x.png" alt="eXo Platform" class="img-responsive"></li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <ul>
+        <li><img src="images/logo-gsoc@2x.png" alt="Google Summer of Code" style="width: 190px" class="img-responsive"></li>
+        <li><img src="images/logo-ibm@2x.png" alt="IBM" class="img-responsive"></li>
+        <li><img src="images/logo-kichwa@2x.png" alt="Kichwa Coders" class="img-responsive"></li>
+        <li><img src="images/logo-nuxeo@2x.png" alt="Nuxeo" style="width: 190px" class="img-responsive"></li>
+        <li><img src="images/logo-platformio@2x.png" alt="Platform.io" style="width: 190px" class="img-responsive"></li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <ul>
+        <li><img src="images/logo-redhat@2x.png" alt="RedHat" class="img-responsive"></li>
+        <li><img src="images/logo-restlet@2x.png" alt="Restlet" class="img-responsive"></li>
+        <li><img src="images/logo-samsung@2x.png" alt="Samsung" class="img-responsive"></li>
+        <li><img src="images/logo-sap@2x.png" alt="SAP" class="img-responsive"></li>
+        <li><img src="images/logo-serli@2x.png" alt="Serli" class="img-responsive"></li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <ul>
+        <li><img src="images/logo-silexica@2x.png" alt="Silexica" class="img-responsive"></li>
+        <li><img src="images/logo-smartbear@2x.png" alt="SmartBear" class="img-responsive"></li>
+        <li><img src="images/logo-software-ag@2x.png" alt="Software AG" class="img-responsive"></li>
+        <li><img src="images/logo-tomitribe@2x.png" alt="Tomibrite" class="img-responsive"></li>
+        <li><img src="images/logo-typefox@2x.png" alt="Type Fox" class="img-responsive"></li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <ul>
+        <li><img src="images/logo-wso2@2x.png" alt="WSO2" class="img-responsive"></li>
+        <li><img src="images/logo-yatta@2x.png" alt="Yatta" class="img-responsive"></li>
+        <li><img src="images/logo-zend@2x.png" style="width: 190px" alt="Zend" class="img-responsive"/></li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <a href="https://github.com/eclipse/che/blob/master/CONTRIBUTING.md" class="btn-yellow" target="_blank">Become a Contributor</a>
+    </div>
+  </div>
+</div>
 
 <div class="bg-dark-space get-started">
   <div class="container-fluid content">
@@ -35,36 +182,6 @@
       </div>
 
     </div>
-  </div>
-</div>
-
-<hr class="gray">
-<div class="container-fluid content whats-new">
-  <h2>What's New</h2>
-  <div class="row">
-
-
-    <div class="col-md-4">
-      <img src="images/img-home-che6@2x.png" alt="image by doug walters" class="img-responsive">
-      <h3>Eclipse Che 7.0</h3>
-      <p>Che 7 takes the best of Kubernetes to code your Kubernetes applications the easy way.</p>
-      <a href="https://che.eclipse.org/eclipse-che-7-is-coming-and-its-really-hot-1-4-64d79b75ca02" target="_blank" class="btn-yellow">Learn about Che 7.0</a>
-    </div>
-
-    <div class="col-md-4">
-      <img src="checonf18.2/images/checonf2018_socialpostimage.png" alt="CheConf18.2" class="img-responsive">
-      <h3>CheConf18.2</h3>
-      <p>Register for our virtual Che user conference to hear what's new - streaming December 5, 2018.</p>
-      <a href="<?php echo $rootPath; ?>/checonf18.2/index.html" class="btn-yellow">Learn More</a>
-    </div>
-
-    <div class="col-md-4">
-      <img src="images/img-home-che5@2x.png" alt="Che 7.0" class="img-responsive">
-      <h3>Eclipse Che</h3>
-      <p>Centralized developer environments running on Kubernetes. Devfile: Developer Workspaces as Code. Kubernetes-native tools for Kubernetes developer teams</p>
-      <a href="<?php echo $rootPath; ?>/technology" class="btn-yellow">Learn More</a>
-    </div>
-
   </div>
 </div>
 
@@ -108,59 +225,7 @@
 
 
 <hr class="gray">
-<div class="container-fluid content contributors">
-  <h2>Contributors</h2>
-  <div class="row">
-    <ul>
-      <li><img src="images/logo-bitnami@2x.png" alt="Bitnami" style="width: 190px" class="img-responsive"></li>
-      <li><img src="images/logo-codenvy-black.png" alt="Codenvy" class="img-responsive"></li>
-      <li><img src="images/logo-docker@2x.png" alt="Docker" style="width: 190px" class="img-responsive"></li>
-      <li><img src="images/logo-eclipsesource@2x.png" alt="Eclipse Source" class="img-responsive"></li>
-      <li><img src="images/logo-exo@2x.png" alt="eXo Platform" class="img-responsive"></li>
-    </ul>
-  </div>
-  <div class="row">
-    <ul>
-      <li><img src="images/logo-gsoc@2x.png" alt="Google Summer of Code" style="width: 190px" class="img-responsive"></li>
-      <li><img src="images/logo-ibm@2x.png" alt="IBM" class="img-responsive"></li>
-      <li><img src="images/logo-kichwa@2x.png" alt="Kichwa Coders" class="img-responsive"></li>
-      <li><img src="images/logo-nuxeo@2x.png" alt="Nuxeo" style="width: 190px" class="img-responsive"></li>
-      <li><img src="images/logo-platformio@2x.png" alt="Platform.io" style="width: 190px" class="img-responsive"></li>
-    </ul>
-  </div>
-  <div class="row">
-    <ul>
-      <li><img src="images/logo-redhat@2x.png" alt="RedHat" class="img-responsive"></li>
-      <li><img src="images/logo-restlet@2x.png" alt="Restlet" class="img-responsive"></li>
-      <li><img src="images/logo-samsung@2x.png" alt="Samsung" class="img-responsive"></li>
-      <li><img src="images/logo-sap@2x.png" alt="SAP" class="img-responsive"></li>
-      <li><img src="images/logo-serli@2x.png" alt="Serli" class="img-responsive"></li>
-    </ul>
-  </div>
-  <div class="row">
-    <ul>
-      <li><img src="images/logo-silexica@2x.png" alt="Silexica" class="img-responsive"></li>
-      <li><img src="images/logo-smartbear@2x.png" alt="SmartBear" class="img-responsive"></li>
-      <li><img src="images/logo-software-ag@2x.png" alt="Software AG" class="img-responsive"></li>
-      <li><img src="images/logo-tomitribe@2x.png" alt="Tomibrite" class="img-responsive"></li>
-      <li><img src="images/logo-typefox@2x.png" alt="Type Fox" class="img-responsive"></li>
-    </ul>
-  </div>
-  <div class="row">
-    <ul>
-      <li><img src="images/logo-wso2@2x.png" alt="WSO2" class="img-responsive"></li>
-      <li><img src="images/logo-yatta@2x.png" alt="Yatta" class="img-responsive"></li>
-      <li><img src="images/logo-zend@2x.png" style="width: 190px" alt="Zend" class="img-responsive"/></li>
-    </ul>
-  </div>
-  <a href="https://github.com/eclipse/che/blob/master/CONTRIBUTING.md" class="btn-yellow" target="_blank">Become a Contributor</a>
-</div>
-
-
-
-
-
-<div class="bg-purple chefile">
+<div class="chefile">
   <div class="container-fluid content">
     <h2>Feature Highlight</h2>
     <table>
