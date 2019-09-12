@@ -1,9 +1,7 @@
 # version that works on che.openshift.io
-
-
-specVersion: 0.0.1
-
-name: che-website
+apiVersion: 1.0.0
+metadata:
+   generateName: che-website-
 
 projects:
   - source:
