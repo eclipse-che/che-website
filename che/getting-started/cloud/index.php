@@ -43,7 +43,7 @@
          </div>
          <a href="https://che.openshift.io/" class="btn-green">Create a free account</a>
        </div>
-       <p style="font-size:0.7em">Requires an OpenShift.IO account. You will be asked to accept their TOS.
+       <p style="font-size:0.7em">Requires a che.openshift.io account. You will be asked to accept their TOS.
 
      </div> <!-- /.col -->
    </div> <!-- /.row -->
