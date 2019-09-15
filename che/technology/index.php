@@ -157,66 +157,6 @@
 </div> <!-- .tech -->
 
 
-<div class="video">
-  <div class="container-fluid content">
-    <h2>Silent Screencasts</h2>
-
-    <div class="row">
-      <div class="col-md-4">
-        <a href="https://youtu.be/zvofry3M27k" target="_blank"><img src="<?php echo $rootPath; ?>/images/video-workspaces@2x.png" alt="Java IntelliSense" class="img-responsive"></a>
-        <h3><a href="https://youtu.be/zvofry3M27k " target="_blank">Java IntelliSense </a></h3>
-        <p>15 Minutes 1 Second</p>
-      </div>
-
-      <div class="col-md-4">
-        <a href="https://youtu.be/AVXYcMdKCGg" target="_blank"><img src="<?php echo $rootPath; ?>/images/video-run@2x.png" alt="Run, Commands, &amp; Previews" class="img-responsive"></a>
-        <h3><a href="https://youtu.be/AVXYcMdKCGg" target="_blank">Commands &amp; Previews</a></h3>
-        <p>13 Minutes 38 Seconds</p>
-      </div>
-
-      <div class="col-md-4">
-        <a href="https://youtu.be/D_BsLN9LcSA" target="_blank"><img src="<?php echo $rootPath; ?>/images/video-debug@2x.png" alt="Debugger" class="img-responsive"></a>
-        <h3><a href="https://youtu.be/D_BsLN9LcSA" target="_blank">Debugger</a></h3>
-        <p>5 Minutes 2 Seconds</p>
-      </div>
-    </div> <!-- .row -->
-
-    <div class="row">
-      <h3 class="col-sm-12">More Videos</h3>
-
-      <ul class="col-md-4">
-        <li><a href="https://www.youtube.com/watch?v=86QmBy__azY">Terminal</a> 71 Secs</li>
-        <li><a href="https://www.youtube.com/watch?v=4kCEimYLw3w">Renaming a Java Class</a> 49 Secs</li>
-        <li><a href="https://www.youtube.com/watch?v=sKvwhv5bB3U">Renaming a Java Method</a> 58 Secs</li>
-        <li><a href="https://youtu.be/7BtLGqEjfRc">Code Auto-Completion</a> 150 Secs</li>
-        <li><a href="https://youtu.be/noKYHILl550">Open Declaration</a> 64 Secs</li>
-        <li><a href="https://www.youtube.com/watch?v=3bRBa-2gF3k">Parallel Workspaces</a> 234 Secs</li>
-        <li><a href="https://www.youtube.com/watch?v=AjgSp0dkxxU">Swing GUI with VNC</a> 182 Secs</li>
-      </ul>
-
-      <ul class="col-md-4">
-        <li><a href="https://www.youtube.com/watch?v=X6izqIUlNEM">Portable Workspaces</a> 98 Secs</li>
-        <li><a href="https://youtu.be/-GiZe8sksT8">Find Usage</a> 51 Secs</li>
-        <li><a href="https://youtu.be/SDCWeoMgoxA">Navigating Classes</a> 55 Secs</li>
-        <li><a href="https://youtu.be/5ItEe5BC4MM">Git Diff</a> 21 Secs</li>
-        <li><a href="https://youtu.be/Clu6whdnNx4">Git History</a> 52 Secs</li>
-        <li><a href="https://youtu.be/ZumoeSL4MGo">Quick Create Project</a> 48 Secs</li>
-        <li><a href="https://youtu.be/ZumoeSL4MGo">RESTful Workspaces</a> 48 Secs</li>
-      </ul>
-
-      <ul class="col-md-4">
-        <li><a href="https://www.youtube.com/watch?v=oWCPczMK-_8">Desktop IDE Over SSH</a> 73 Secs</li>
-        <li><a href="https://www.youtube.com/watch?v=TO5Y3zwg6Jk">OpenShift Plug-In</a> 176 Secs</li>
-        <li><a href="https://youtu.be/_UVrhcXbz8Q">Clone From GitHub</a> 58 Secs</li>
-        <li><a href="https://youtu.be/Uj4lymKAXZg">Define Command</a> 39 Secs</li>
-        <li><a href="https://youtu.be/Z15mEmx2-Qg">Build and Run Project</a> 41 Secs</li>
-        <li><a href="https://www.youtube.com/watch?v=xKOgJMqPTyg">Run Terminal</a> 305 Secs</li>
-        <li><a href="https://www.youtube.com/watch?v=RBU8OF2iMkU">Maven Dynamic Dependencies</a> 128 Secs</li>
-      </ul>
-    </div> <!-- .row -->
-  </div>
-</div>
-
 
 
 <?php include '../includes/footer.php'; ?>
