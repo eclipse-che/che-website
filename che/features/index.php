@@ -121,7 +121,7 @@
     </div>
 
     <div class="col-sm-6">
-      <a href="../images/features/img-features-docker-powered.png"><img alt="" class="img-responsive" src="../images/features/img-features-docker-powered.png" /></a>
+      <a href="../images/features/img-features-kube-powered.png"><img alt="" class="img-responsive" src="../images/features/img-features-kube-powered.png" /></a>
     </div>
   </div>
 
@@ -198,7 +198,7 @@
     </div>
 
     <div class="col-sm-6">
-      <a href="../images/features/img-features-cloud-ide.png"><img alt="" class="img-responsive" src="../images/features/img-features-cloud-ide.png" /></a>
+      <a href="../images/features/img-features-cloud-ide-7.png"><img alt="" class="img-responsive" src="../images/features/img-features-cloud-ide-7.png" /></a>
     </div>
   </div>
 
