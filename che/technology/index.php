@@ -86,72 +86,69 @@
 <div class="tech">
   <div class="container-fluid content">
     <h2>Technology</h2>
-    <p>We are building a world where anyone can contribute to a project without installing software. Che defines a new type of workspace that is composed of projects and runtimes, making its state distributable, portable and versionable. We use VMs, containers, and Web services to bring repeatability, consistency, and performance to workspaces.</p>
+    <p>We are building a world where anyone can contribute to a project without installing software. Che defines a new type of containerized-based workspace that is composed of projects and runtimes, making its state distributable, portable and versionable.</p>
     <img alt="" class="img-responsive" src="../images/hero-home-technology.png" />
 
     <h3>Cloud IDE</h3>
-    <p>Che’s browser IDE is built on an extensible plug-in platform that enables panels, menus, wizards, popups and tools. With an Orion editor experience, server-side RESTful code intellisense, and distributable workspaces, the developer experience and non-blocking performance will surprise you. Want to extend the IDE? Check out our <a href="../docs/framework-overview.html" target="blank">extension builder's guide</a> for help.</p>
+    <p>Che provides a default web-based editor of Che (based on Eclipse Theia) provides an experience close to Visual Studio Code that most of the developers are already familiar with and is built on top of the latest tooling protocols such as the Language Server Protocol and the Debug Adapter. Other editors (Eclipse Dirigible, Jupyter) or built from Eclipse Theia can be used.</p>
 
     <h3>Workspace Server</h3>
-    <p>The Che server controls the lifecycle of workspaces and can be customized with plug-ins. Any client can communicate with the workspace server and any spawned workspaces. Read more in our <a href="../docs/what-are-workspaces.html" target="blank">documentation</a>, or see the <a href="../docs/rest-api.html">API</a>.</p>
+    <p>The Che server controls the lifecycle of workspaces and can be customized with plug-ins. Any client can communicate with the workspace server and any spawned workspaces.</p>
 
-    <h3>Workspaces</h3>
-    <p>Workspaces are isolated and personal spaces for developer work. Whether developers use an API, browser, CLI, or SSH to access a workspace, their projects are synchronized and kept consistent. Plug-ins enable service injection into workspaces based upon project type, making every workspace tailored to the projects it manages. Read more in our <a href="../docs/what-are-workspaces.html" target="blank">documentation</a>.</p>
+    <h3>Containerized Workspaces</h3>
+    <p>Workspaces are isolated and personal spaces for developer work. Whether developers use an API, browser, CLI, or SSH to access a workspace, their projects are synchronized and kept consistent.</p>
 
-    <h3>Extensions</h3>
-    <p>Che includes a growing set of extensions. You can <a href="../docs/framework-overview.html" target="blank">create and package</a> your own. You can also extend Che's <a href="../docs/recipes.html" target="blank">recipes</a>, <a href="../docs/stacks.html" target="blank">stacks</a>, <a href="../docs/commands-ide-macro.html" target="blank">commands</a>, and <a href="../docs/servers.html" target="blank">machines</a>.</p>
+    <h3>Extensible</h3>
+    <p>Che includes a growing set of plug-ins and ready-to-code developer stacks. You can <a href="../docs/che-7/developing-che-theia-plug-ins/" target="blank">create and package</a> your own. You can also configure Che's <a href="../docs/che-7/customizing-the-devfile-and-plug-in-registries/" target="blank">stacks and plug-ins.</a></p>
     <div class="row">
       <div class="col-md-3 col-sm-6">
         <h5>Languages</h5>
-        <p>Syntax highlighting, stacks, templates, and code assistants.</p>
+        <p>Syntax highlighting, code assistants, debuggers, stacks and code samples.</p>
         <ul>
           <li>Java</li>
           <li>C++</li>
           <li>JavaSript</li>
           <li>Python</li>
           <li>PHP</li>
-          <li>Ruby</li>
-          <li>SQL</li>
-          <li>CSharp</li>
+          <li>Node</li>
+          <li>TypeScript</li>
+          <li>YAML</li>
           <li>JSON</li>
-        </ul>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <h5>Frameworks</h5>
-        <p>Project types, scaffold tool integration, and syntax analysis.</p>
-        <ul>
-          <li><a href="../extend/silexica/">Silexica</a></li>
-          <li><a href="../extend/sap/">SAP HANA</a></li>
-          <li>Angular JS</li>
-          <li>Yeoman</li>
+          <li>Camel</li>
         </ul>
       </div>
 
       <div class="clearfix"></div>
 
       <div class="col-md-3 col-sm-6">
-        <h5>Builders</h5>
-        <p>Builders to manage unit tests, compilation, linking, and dependencies.</p>
+        <h5>Kubernetes Tools</h5>
+        <p>Plug-ins that integrate with deployment platforms.</p>
         <ul>
-          <li>Ant</li>
-          <li>Bower</li>
-          <li>Grunt</li>
-          <li>Gulp</li>
-          <li>Maven</li>
-          <li>Npm</li>
+          <li>Kubernetes</li>
+          <li>OpenShift</li>
         </ul>
       </div>
 
       <div class="col-md-3 col-sm-6">
-        <h5>Tools</h5>
-        <p>Extensions that integrate the IDE with other parts of the developer tool chain.</p>
+        <h5>Git Tools</h5>
+        <p>Plug-ins that integrate the IDE with other parts of the developer tool chain.</p>
         <ul>
           <li>Git</li>
-          <li>Orion</li>
+          <li>GitHub</li>
           <li>SSH</li>
         </ul>
       </div>
+
+      <div class="col-md-3 col-sm-6">
+        <h5>Editors</h5>
+        <p>Specified editors can be used, with dedicated tools and experience.</p>
+        <ul>
+          <li>Eclipse Theia</li>
+          <li>Jupyter</li>
+          <li>Eclipse Dirigible</li>
+        </ul>
+      </div>
+
     </div> <!-- .row -->
   </div> <!-- .container-fluid -->
 </div> <!-- .tech -->
