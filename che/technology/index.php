@@ -30,13 +30,13 @@
         <p>Eclipse Che runs in containers. All of the developer tools, the IDE and its plugins are running as containerized services. You don’t have to worry about how to configure them, install their dependencies or keeping them alive - everything is packaged together in the container. Che allows you to establish a centralized configuration for your team’s development environment and technology stacks... <a href="../features/">Read More</a>.</p>
       </div>
       <div class="col-sm-5">
-        <a href="../images/features/img-features-docker-powered.png" target="_blank"><img alt="" height="333" width="500" src="../images/features/img-features-docker-powered.png" class="img-responsive" /></a>
+        <a href="../images/features/img-features-kube-powered.png" target="_blank"><img alt="" height="333" width="500" src="../images/features/img-features-kube-powered.png" class="img-responsive" /></a>
       </div>
     </div> <!-- .row -->
 
     <div class="row">
       <div class="col-sm-5">
-        <a href="../images/features/img-features-cloud-ide.png" target="_blank"><img alt="" height="333" width="500" src="../images/features/img-features-cloud-ide.png" class="img-responsive" /></a>
+        <a href="../images/features/img-features-cloud-ide-7.png" target="_blank"><img alt="" height="333" width="500" src="../images/features/img-features-cloud-ide-7.png" class="img-responsive" /></a>
       </div>
 
       <div class="col-sm-7">
