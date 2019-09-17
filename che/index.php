@@ -99,7 +99,7 @@
           <img src="images/img-home-che6@2x.png" alt="image by doug walters" class="img-responsive">
           <h3>Eclipse Che 7.0</h3>
           <p>Che 7 takes the best of Kubernetes to code your Kubernetes applications the easy way.</p>
-          <a href="https://che.eclipse.org/eclipse-che-7-is-coming-and-its-really-hot-1-4-64d79b75ca02" target="_blank" class="btn-yellow">Learn about Che 7.0</a>
+          <a href="https://che.eclipse.org/eclipse-che-7-is-now-available-40ae07120b38" target="_blank" class="btn-yellow">Learn about Che 7.0</a>
         </div>
         <div class="col-md-6">
           <img src="images/img-home-che5@2x.png" alt="Che 7.0" class="img-responsive">
