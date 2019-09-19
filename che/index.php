@@ -24,7 +24,7 @@
       <div class="col-md-11">
         <h2>Eclipse Che</h2>
         <h1 class="h3">The Kubernetes-Native IDE for Developer Teams</h1>
-        <p>Eclipse Che makes kubernetes development accessible for developer teams, providing one-click developer workspaces and eliminating local environment configuration for your entire team. Che brings your Kubernetes application into your development environment and provides an in-browser IDE, allowing you to code, build, test and run applications exactly as they run on production from any machine.</p>
+        <p>Eclipse Che makes Kubernetes development accessible for developer teams, providing one-click developer workspaces and eliminating local environment configuration for your entire team. Che brings your Kubernetes application into your development environment and provides an in-browser IDE, allowing you to code, build, test and run applications exactly as they run on production from any machine.</p>
       </div>
     </div>
   </div>
@@ -191,7 +191,7 @@
     <div class="row">
     <div class="col-md-4">
         <h4>Developer Environments for Teams</h4>
-        <p>Host on your kubernetes cluster and centralize developer environments. Onboard teams with powerful collaboration, workspace automation, and permissions. Developers in a team can use their local IDE or the Che browser IDE.</p>
+        <p>Host on your Kubernetes cluster and centralize developer environments. Onboard teams with powerful collaboration, workspace automation, and permissions. Developers in a team can use their local IDE or the Che browser IDE.</p>
         <ul>
           <li>Share workspaces with anyone</li>
           <li>Control workspace permissions</li>
@@ -204,7 +204,7 @@
         <p>Create workspaces from production runtimes containing your projects and tools. Get developer environments that are highly consistent, repeatable and reproducible.</p>
         <ul>
           <li>"Dev mode" production environments</li>
-          <li>Code in kubernetes pods</li>
+          <li>Code in Kubernetes pods</li>
           <li>Enjoy built-in browser IDE</li>
           <li>Codify developer workspaces config</li>
         </ul>
