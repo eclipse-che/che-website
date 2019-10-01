@@ -120,41 +120,42 @@
     <div class="col-md-12">
         <ul>
         <li><img src="images/logo-bitnami@2x.png" alt="Bitnami" style="width: 190px" class="img-responsive"></li>
+        <li><img src="images/logo-broadcom@2x.png" alt="Broadcom" style="width: 190px" class="img-responsive"></li>
         <li><img src="images/logo-codenvy-black.png" alt="Codenvy" class="img-responsive"></li>
         <li><img src="images/logo-docker@2x.png" alt="Docker" style="width: 190px" class="img-responsive"></li>
         <li><img src="images/logo-eclipsesource@2x.png" alt="Eclipse Source" class="img-responsive"></li>
-        <li><img src="images/logo-exo@2x.png" alt="eXo Platform" class="img-responsive"></li>
         </ul>
     </div>
     <div class="col-md-12">
         <ul>
+        <li><img src="images/logo-exo@2x.png" alt="eXo Platform" class="img-responsive"></li>
         <li><img src="images/logo-gsoc@2x.png" alt="Google Summer of Code" style="width: 190px" class="img-responsive"></li>
         <li><img src="images/logo-ibm@2x.png" alt="IBM" class="img-responsive"></li>
         <li><img src="images/logo-kichwa@2x.png" alt="Kichwa Coders" class="img-responsive"></li>
         <li><img src="images/logo-nuxeo@2x.png" alt="Nuxeo" style="width: 190px" class="img-responsive"></li>
-        <li><img src="images/logo-platformio@2x.png" alt="Platform.io" style="width: 190px" class="img-responsive"></li>
         </ul>
     </div>
     <div class="col-md-12">
         <ul>
+        <li><img src="images/logo-platformio@2x.png" alt="Platform.io" style="width: 190px" class="img-responsive"></li>
         <li><img src="images/logo-redhat@2x.png" alt="RedHat" class="img-responsive"></li>
         <li><img src="images/logo-restlet@2x.png" alt="Restlet" class="img-responsive"></li>
         <li><img src="images/logo-samsung@2x.png" alt="Samsung" class="img-responsive"></li>
         <li><img src="images/logo-sap@2x.png" alt="SAP" class="img-responsive"></li>
-        <li><img src="images/logo-serli@2x.png" alt="Serli" class="img-responsive"></li>
         </ul>
     </div>
     <div class="col-md-12">
         <ul>
+        <li><img src="images/logo-serli@2x.png" alt="Serli" class="img-responsive"></li>
         <li><img src="images/logo-silexica@2x.png" alt="Silexica" class="img-responsive"></li>
         <li><img src="images/logo-smartbear@2x.png" alt="SmartBear" class="img-responsive"></li>
         <li><img src="images/logo-software-ag@2x.png" alt="Software AG" class="img-responsive"></li>
         <li><img src="images/logo-tomitribe@2x.png" alt="Tomibrite" class="img-responsive"></li>
-        <li><img src="images/logo-typefox@2x.png" alt="Type Fox" class="img-responsive"></li>
         </ul>
     </div>
     <div class="col-md-12">
         <ul>
+        <li><img src="images/logo-typefox@2x.png" alt="Type Fox" class="img-responsive"></li>
         <li><img src="images/logo-wso2@2x.png" alt="WSO2" class="img-responsive"></li>
         <li><img src="images/logo-yatta@2x.png" alt="Yatta" class="img-responsive"></li>
         <li><img src="images/logo-zend@2x.png" style="width: 190px" alt="Zend" class="img-responsive"/></li>
