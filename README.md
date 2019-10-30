@@ -7,7 +7,7 @@ Use the factory url https://che.openshift.io/f?url=https://github.com/eclipse/ch
 
 This factory will start che and clone the repo che-website.
 
-On the right side `My workspace` view, you can start to preview the website with the command `start che-website`.
+On the right side `My workspace` view, you can start to preview the website with the task `start che-website` (`F1`=>`run task` => `start che-website`) 
 Open the port 80 and the link as suggested. Click on `che/`.
 You can then make your changes on the files in `/projects/che-website/che`
 
