@@ -45,7 +45,7 @@
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="border media">
-         <a href="https://che.openshift.io/f?id=factoryqn54y270f4eh4d00" class="media-body">
+         <a href="https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/vertx/devfile.yaml" class="media-body">
            <p>Launch</p>
            <h4>Vert.x Verticle</h4>
          </a>
@@ -54,7 +54,7 @@
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="border media">
-         <a href="https://che.openshift.io/f?id=factorybkhfg8svxkfz41dx" class="media-body">
+         <a href="https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/angular/devfile.yaml" class="media-body">
            <p>Launch</p>
            <h4>Angular 2</h4>
          </a>
