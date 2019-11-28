@@ -63,7 +63,7 @@
     </div>
     <div class="col-sm-12 col-md-3">
         <a href="<?php echo $rootPath; ?>/getting-started/cloud/" class="btn-gray80">All SaaS Workspace Templates</a>
-        <a href="<?php echo $rootPath; ?>/docs/quick-start.html" class="btn-yellow">Download</a>
+        <a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" class="btn-yellow">Download</a>
     </div>
   </div>
 </div>
