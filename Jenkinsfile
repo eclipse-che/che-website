@@ -69,17 +69,7 @@ spec:
                 git status
                 echo $(pwd)
                 git add -A
-                if ! git diff --cached --exit-code; then
-                  echo "Changes have been detected, publishing to repo 'www.eclipse.org/${PROJECT_NAME}'"
-                  git config --global user.email "${PROJECT_NAME}-bot@eclipse.org"
-                  git config --global user.name "${PROJECT_BOT_NAME}"
-                  export DOC_COMMIT_MSG=$(git log --oneline --format=%B -n 1 HEAD | tail -1)
-                  git commit -m "[docs] ${DOC_COMMIT_MSG}"
-                  git log --graph --abbrev-commit --date=relative -n 5
-                  git push origin HEAD:${BRANCH_NAME}
-                else
-                  echo "No change have been detected since last build, nothing to publish"
-                fi
+                git status
                 '''
             }
         }
