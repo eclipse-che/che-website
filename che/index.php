@@ -214,7 +214,7 @@
         <h4>Enterprise readiness and built-in security</h4>
         <p>Manage workspaces for your developer teams with programmable and customizable infrastructure that lets you control system performance, availability, and functionality.</p>
         <ul>
-          <li>Authenticate with Keycloack</li>
+          <li>Authenticate with Keycloak</li>
           <li>Connect to LDAP or AD</li>
           <li>In-House plug-ins and stacks registries</li>
           <li>Built-in system monitoring</li>
