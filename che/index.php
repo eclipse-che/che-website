@@ -93,7 +93,7 @@
         </ul>
       </div>
       <div class="col-md-4">
-        <h4>Enterprise readiness and built-in security</h4>
+        <h4>Enterprise Readiness and Built-In Security</h4>
         <p>Manage workspaces for your developer teams with programmable and customizable infrastructure that lets you control system performance, availability, and functionality.</p>
         <ul>
           <li>Authenticate with Keycloack</li>
