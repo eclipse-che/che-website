@@ -94,9 +94,6 @@
       <p>Under the hood:</p>
       <ul>
         <li>Browser IDE</li>
-        <li>SSH Access</li>
-        <li>Mount-and-Sync Workspace</li>
-        <li>Electron Client</li>
         <li>RESTful Workspace APIs</li>
       </ul>
       <p><a href="#top">Back to Top</a></p>
