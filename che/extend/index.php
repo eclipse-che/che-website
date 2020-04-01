@@ -25,7 +25,7 @@
     <p><b></b></p>
     <p><b>Plug-ins</b>, to add capabilities to the IDE. Rely on APIs compatible with Visual Studio Code. Plug-ins are isolated and provide their own dependencies packaged in containers.</p>
     <p><b>Workbenches</b>, to create pre-configured Che workspaces with dedicated set of tools.</p> 
-    <p><b>Alternate IDEs</b>, to provide specialized tooling within Eclipse Che. Build your own, based on Eclipse Theia, or pick existing ones like Jupyter.</p>
+    <p><b>Alternate IDEs</b>, to provide specialized tooling within Eclipse Che®. Build your own, based on Eclipse Theia, or pick existing ones like Jupyter.</p>
     <p><b>Marketplace</b> (soon), to easily distribute tools and custom IDEs to users and communities which can be tried online. </p>
     <img alt="" class="img-responsive" src="../images/hero-home-technology.png" />
 
