@@ -13,7 +13,7 @@
 
 <div class="features">
   <div class="container-fluid content">
-    <h2>How Eclipse Che Works</h2>
+    <h2>How Eclipse Che® Works</h2>
 
     <div class="row">
       <div class="col-sm-5">
