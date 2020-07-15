@@ -121,7 +121,7 @@
         <h4>REST APIs</h4>
         <p>The Che server and each workspace has all services programmable through REST APIs.</p>
         <ul>
-          <li><a href="../docs/rest-api.html" target="blank">Che REST APIs</a></li>
+          <li><a href="https://che.openshift.io/swagger/" target="blank">Che REST APIs</a></li>
         </ul>
       </div>
 
