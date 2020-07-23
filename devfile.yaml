@@ -3,12 +3,6 @@ apiVersion: 1.0.0
 metadata:
    generateName: che-website-
 
-projects:
-  - source:
-      type: git
-      location: 'https://github.com/eclipse/che-website'
-    name: che-website
-
 components:
   - alias: git
     type: dockerimage
@@ -22,6 +16,14 @@ components:
     mountSources: true
     memoryLimit: 256M
     args: ['sleep', 'infinity']
+    endpoints:
+      - name: 'website'
+        port: 80
+        attributes:
+          path: /che/
+
+  - id: ms-vscode/vscode-github-pullrequest/latest
+    type: chePlugin
 
 commands:
 
@@ -30,7 +32,6 @@ commands:
       - type: exec
         command: >-
           if [ ! -f "/projects/che" ]; then ln -s /projects/che-website/che ; fi ;
-          cp /projects/che-website/redirect.html /projects/index.html;
           service apache2 start && tail -f /var/log/apache2/access.log -f /var/log/apache2/error.log
         component: php
         workdir: /projects/
