@@ -1,30 +1,6 @@
 pipeline {
  
-  agent {
-    kubernetes {
-      label 'che-website-pod'
-      yaml """
-apiVersion: v1
-metadata:
-  labels:
-    run: che-website-pod
-  name: che-website-pod
-spec:
-  containers:
-    - name: jnlp
-      volumeMounts:
-      - mountPath: /home/jenkins/.ssh
-        name: volume-known-hosts
-      env:
-      - name: "HOME"
-        value: "/home/jenkins/agent"
-  volumes:
-  - configMap:
-      name: known-hosts
-    name: volume-known-hosts
-"""
-    }
-  }
+  agent any
  
   environment {
     PROJECT_NAME = "che"
@@ -38,6 +14,7 @@ spec:
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
     checkoutToSubdirectory('che-website')
+    disableConcurrentBuilds() 
   }
  
   stages {
