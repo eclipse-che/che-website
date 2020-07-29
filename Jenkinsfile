@@ -14,6 +14,7 @@ pipeline {
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
     checkoutToSubdirectory('che-website')
+    disableConcurrentBuilds() 
   }
  
   stages {
