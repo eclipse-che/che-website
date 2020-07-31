@@ -3,7 +3,7 @@
   include 'includes/variables.php';
 
   // Define page title
-  $pageTitle = 'Eclipse Che | Eclipse Next-Generation IDE for developer teams';
+  $pageTitle = 'Eclipse Che | The Kubernetes-Native IDE for Developer Teams';
   // Define body class
   $bodyClass = 'index';
 
