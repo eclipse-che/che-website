@@ -168,15 +168,15 @@
         ]
      },
      {
-       "name": "Thorntail",
-       "desc": "Thorntail REST web app example",
-       "logo": "images/thorntail.png",
-       "project": "https://github.com/thorntail-examples/rest-http",
-       "website": "https://thorntail.io/",
+       "name": "Quarkus",
+       "desc": "Minimal CRUD service exposing a couple of endpoints over REST",
+       "logo": "images/quarkus.png",
+       "project": "https://github.com/quarkusio/quarkus-quickstarts",
+       "website": "https://quarkus.io/",
        "category": "che samples",
-       "badgedRepository": false,
+       "badgedRepository": true,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/thorntail/devfile.yaml",
+       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/quarkus/devfile.yaml",
        "languages": [
             "java"
 
