@@ -32,7 +32,7 @@
     <div class="col-md-6">
       <img src="../images/getting-started/icon-local-install.jpg" alt="Eclipse Che | Local Install">
       <h3>Download</h3>
-      <p>Install anywhere on Kubernetes, OpenShift or Docker.</p>
+      <p>Install anywhere on Kubernetes or OpenShift.</p>
       <a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" class="btn-yellow">Download</a>
     </div>
 
