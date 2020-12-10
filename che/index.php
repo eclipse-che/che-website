@@ -32,7 +32,7 @@
 
 <hr class="gray">
 <div class="container-fluid content start-working">
-  <h3>Start working with Che</h3>
+  <h3>Start working with Eclipse Che hosted by Red Hat</h3>
   <div class="row">
     <div class="col-sm-4 col-md-3">
         <div class="border media">
