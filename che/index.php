@@ -32,12 +32,12 @@
 
 <hr class="gray">
 <div class="container-fluid content start-working">
-  <h3>Start working with Eclipse Che hosted by Red Hat</h3>
+<h3>Try Eclipse Che using the online service hosted by Red Hat</h3>
   <div class="row">
     <div class="col-sm-4 col-md-3">
         <div class="border media">
          <a href="https://che.openshift.io/" class="media-body">
-           <p>Launch</p>
+           <p>Try</p>
            <h4>Custom</h4>
          </a>
          <p class="media-content">Create workspaces for any language/framework.</p>
@@ -45,25 +45,25 @@
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="border media">
-         <a href="https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/vertx/devfile.yaml" class="media-body">
-           <p>Launch</p>
-           <h4>Vert.x Verticle</h4>
+         <a href="https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/quarkus/devfile.yaml" class="media-body">
+           <p>Launch sample stack</p>
+           <h4>Quarkus</h4>
          </a>
-         <p class="media-content">Example web app for reactive applications on the JVM.</p>
+         <p class="media-content">QuickStart application with Quarkus on the JVM.</p>
         </div>
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="border media">
          <a href="https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/angular/devfile.yaml" class="media-body">
-           <p>Launch</p>
+           <p>Launch sample stack</p>
            <h4>Angular 2</h4>
          </a>
          <p class="media-content">Official Angular 2 quick start tutorial.</p>
         </div>
     </div>
     <div class="col-sm-12 col-md-3">
-        <a href="<?php echo $rootPath; ?>/getting-started/cloud/" class="btn-gray80">All SaaS Workspace Templates</a>
-        <a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" class="btn-yellow">Download</a>
+        <a href="<?php echo $rootPath; ?>/getting-started/cloud/" class="btn-gray80">All Sample Stacks</a>
+        <a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" class="btn-yellow">Other Installation Options</a>
     </div>
   </div>
 </div>
