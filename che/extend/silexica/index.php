@@ -24,13 +24,13 @@
 <div class="container-fluid content features">
   <div class="row">
     <div class="col-sm-6">
-      <a href="../images/silexica/analyze-code.png"><img alt="" class="img-responsive" src="../../images/silexica/analyze-code.png" /></a>
+      <a href="../../images/silexica/analyze-code.png"><img alt="" class="img-responsive" src="../../images/silexica/analyze-code.png" /></a>
       <h3>Analyze Your Code</h3>
       <p>SLX.cloud understands your code better than you do! Get warnings and hints about your code directly within the editor. Analyze the functional dependency with the Call Graph, trace variable accesses within the Code Analysis Graph or get a complete overview with the Code Analysis View.</p>
     </div>
 
     <div class="col-sm-6">
-      <a href="../images/silexica/cache-bottlenecks.png"><img alt="" class="img-responsive" src="../../images/silexica/cache-bottlenecks.png" /></a>
+      <a href="../../images/silexica/cache-bottlenecks.png"><img alt="" class="img-responsive" src="../../images/silexica/cache-bottlenecks.png" /></a>
       <h3>Identify Cache Bottlenecks</h3>
       <p>Not only do we analyze and understand your code, we can also simulate your target platform and its caching behavior. If your application is slower than you expected, take a look at our Cache Analysis.</p>
     </div>
@@ -38,13 +38,13 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <a href="../images/silexica/find-parallelism.png"><img alt="" class="img-responsive" src="../../images/silexica/find-parallelism.png" /></a>
+      <a href="../../images/silexica/find-parallelism.png"><img alt="" class="img-responsive" src="../../images/silexica/find-parallelism.png" /></a>
       <h3>Find Parallelism</h3>
       <p>If you have worked with parallel programming before, you will know how tedious it is to get parallelism right. SLX.cloud assists you with that and gives you a list of all parallelism opportunities within your code.</p>
     </div>
 
     <div class="col-sm-6">
-      <a href="../images/silxecia/generated-openmp.png"><img alt="" class="img-responsive" src="../../images/silexica/generated-openmp.png" /></a>
+      <a href="../../images/silxecia/generated-openmp.png"><img alt="" class="img-responsive" src="../../images/silexica/generated-openmp.png" /></a>
       <h3>Generated OpenMP Code</h3>
       <p>You don’t want to implement the parallelism yourself? With the integrated OpenMP Code Generation, SLX.cloud will take care of that based on the identified parallelism. It will not only generate OpenMP Pragma annotations, but will decide intelligently, if a annotation actually generates a speedup for your application. This is only possible with our unique platform-dependent understanding of behaviour and timing.</p>
     </div>

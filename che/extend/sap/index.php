@@ -24,13 +24,13 @@
 <div class="container-fluid content features">
   <div class="row">
     <div class="col-sm-6">
-      <a href="../images/sap/simplify-dev-feature.png"><img alt="" class="img-responsive" src="../../images/sap/simplify-dev-feature.png" /></a>
+      <a href="../../images/sap/simplify-dev-feature.png"><img alt="" class="img-responsive" src="../../images/sap/simplify-dev-feature.png" /></a>
       <h3>Simplify Development</h3>
       <p>SAP Web IDE increases your developer productivity providing wizards, visual drag &amp; drop tools and code editors with code completion. SAP’s best practices are built in.</p>
     </div>
 
     <div class="col-sm-6">
-      <a href="../images/sap/extend-apps-feature.png"><img alt="" class="img-responsive" src="../../images/sap/extend-apps-feature.png" /></a>
+      <a href="../../images/sap/extend-apps-feature.png"><img alt="" class="img-responsive" src="../../images/sap/extend-apps-feature.png" /></a>
       <h3>Extend Apps</h3>
       <p>SAP extensions give you custom features. Wizards and a visual extensibility pane let you add or hide UI elements / controllers, replace data services and customize application texts.</p>
     </div>
@@ -38,13 +38,13 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <a href="../images/sap/integrate-with-hana-feature.png"><img alt="" class="img-responsive" src="../../images/sap/integrate-with-hana-feature.png" /></a>
+      <a href="../../images/sap/integrate-with-hana-feature.png"><img alt="" class="img-responsive" src="../../images/sap/integrate-with-hana-feature.png" /></a>
       <h3>Integrate with SAP HANA</h3>
       <p>Connect with services like SAP Fiori launchpad, Git code repository, Fiori cloud edition, HANA Cloud Integration and HANA Cloud Platform mobile services to further power your app.</p>
     </div>
 
     <div class="col-sm-6">
-      <a href="../images/sap/hybrid-apps-feature.png"><img alt="" class="img-responsive" src="../../images/sap/hybrid-apps-feature.png" /></a>
+      <a href="../../images/sap/hybrid-apps-feature.png"><img alt="" class="img-responsive" src="../../images/sap/hybrid-apps-feature.png" /></a>
       <h3>Hybrid Application Toolkit</h3>
       <p>Develop an Apache Cordova hybrid app with support of templates, thus enabling a live preview of your app within SAP Web IDE, on a device emulator, or on a mobile device.</p>
     </div>
