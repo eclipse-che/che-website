@@ -106,8 +106,8 @@
         <h5>Frameworks</h5>
         <p>Project types, scaffold tool integration, and syntax analysis.</p>
         <ul>
-          <li><a href="<?php echo $rootPath; ?>/codenvy/">Codenvy</a></li>
-          <li><a href="<?php echo $rootPath; ?>/sap/">SAP HANA</a></li>
+          <li><a href="<?php echo $rootPath; ?>/extend/codenvy/">Codenvy</a></li>
+          <li><a href="<?php echo $rootPath; ?>/extend/sap/">SAP HANA</a></li>
           <li><a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/importing-kubernetes-applications-into-a-workspace//" target="_blank">Red Hat OpenShift</a></li>
           <li>Angular JS</li>
           <li>Docker</li>
