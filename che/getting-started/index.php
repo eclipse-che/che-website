@@ -33,7 +33,7 @@
       <img src="../images/getting-started/icon-local-install.jpg" alt="Eclipse Che | Local Install">
       <h3>Download</h3>
       <p>Install anywhere on Kubernetes or OpenShift.</p>
-      <a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" class="btn-yellow">Download</a>
+      <a href="https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che/" class="btn-yellow">installation</a>
     </div>
 
   </div> <!-- /.row -->
@@ -51,7 +51,7 @@
       </div>
       <div class="col-md-4">
         <h4>Documentation</h4>
-        <p>We put a lot of effort <a href="<?php echo $rootPath; ?>/docs/" target="_blank">into our docs.</a> If there are improvements or errors, we'd love that feedback.</p>
+        <p>We put a lot of effort <a href="https://www.eclipse.org/che/docs/" target="_blank">into our docs.</a> If there are improvements or errors, we'd love that feedback.</p>
       </div>
       <div class="col-md-4">
         <h4>Chat</h4>

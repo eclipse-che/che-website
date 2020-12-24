@@ -77,7 +77,9 @@
       <h3>Extension Providers</h3>
       <p>Package stacks, templates, extensions, and plug-ins to create new developer tooling. Dozens of existing extensions and stacks to leverage.</p>
       <p>
-      <a href="../docs/framework-overview.html">Customize Che</a><br>
+      <a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/making-a-workspace-portable-using-a-devfile/" target="_blank">Devfiles</a><br>
+      <a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/adding-a-vs-code-extension-to-a-workspace/" target="_blank">VS Code extensions</a><br>
+      <a href="https://www.eclipse.org/che/docs/che-7/contributor-guide/che-extensibility-reference/" target="_blank">APIs</a><br>
     </div>
   </div> <!-- .row -->
 </div><!-- .contributors -->
@@ -99,7 +101,7 @@
     <p>Workspaces are isolated and personal spaces for developer work. Whether developers use an API, browser, CLI, or SSH to access a workspace, their projects are synchronized and kept consistent.</p>
 
     <h3>Extensible</h3>
-    <p>Che includes a growing set of plug-ins and ready-to-code developer stacks. You can <a href="../docs/che-7/developing-che-theia-plug-ins/" target="blank">create and package</a> your own. You can also configure Che's <a href="../docs/che-7/customizing-the-devfile-and-plug-in-registries/" target="blank">stacks and plug-ins.</a></p>
+    <p>Che includes a growing set of plug-ins and ready-to-code developer stacks. You can <a href="https://www.eclipse.org/che/docs/che-7/contributor-guide/developing-che-theia-plug-ins/" target="blank">create and package</a> your own. You can also configure Che's <a href="https://www.eclipse.org/che/docs/che-7/administration-guide/customizing-the-registries/" target="blank">stacks and plug-ins.</a></p>
     <div class="row">
       <div class="col-md-3 col-sm-6">
         <h5>Languages</h5>

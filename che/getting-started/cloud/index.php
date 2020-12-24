@@ -64,7 +64,7 @@
         <button type="submit" class="btn btn-primary">Go!</button>
       </form>
       <p style="font-size:0.7em">This will create a new workspace in che.openshift.io, an Eclipse Che provider. You will be asked to accept their TOS. The workspace will be powered with an Ubuntu / JDK8 stack. You can customize the runtime and project configuration by adding <samp>che.json</samp> files inside your repository.
-        <a href="/docs/factories-getting-started.html">See docs</a>.</p>
+        <a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/workspaces-overview/">See docs</a>.</p>
     </div>
   </div>
   <!-- END_URL_FACTORY -->

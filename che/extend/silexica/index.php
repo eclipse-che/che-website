@@ -60,7 +60,7 @@
     <h2>How does SLX.cloud extends Eclipse Che?</h2>
     <p>SLX.cloud leverages Eclipse Che’s stacks to repackage our core technology into a workspace container. As a user, you will have full access to a terminal and all commands you typically use during C/C++ development. With our tools running in a lightweight container, performance and behavior match or even exceed typical desktop computers.</p>
     <p>The UI is build as a set of Eclipse Che extensions, leveraging web technology like D3.js to create impressive graphical representations of your code. By implementing a client for the clangd language server, SLX.cloud further supports C/C++ warnings and autocomplete within your browser.</p>
-    <p>Interested in building your own stacks?  We have <a href="<?php echo $rootPath; ?>/docs/5/che/docs/plugins/introduction/" target="_blank">documentation to help you get started with stacks</a> - it's easy! If you have any questions, reach out to <a href="<?php echo $rootPath; ?>/community/">our community</a>.</p>
+    <p>Interested in building your own stacks?  We have <a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/making-a-workspace-portable-using-a-devfile/" target="_blank">documentation to help you get started with devfiles</a> - it's easy! If you have any questions, reach out to <a href="<?php echo $rootPath; ?>/community/">our community</a>.</p>
 
     <div class="row">
       <div class="col-md-3 col-sm-6">
@@ -83,7 +83,7 @@
         <ul>
           <li><a href="<?php echo $rootPath; ?>/extend/artik/">Samsung ARTIK</a></li>
           <li><a href="<?php echo $rootPath; ?>/extend/codenvy/">Codenvy</a></li>
-          <li><a href="<?php echo $rootPath; ?>/docs/5/che/docs/openshift/config/" target="_blank">Red Hat OpenShift</a></li>
+          <li><a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/importing-kubernetes-applications-into-a-workspace/" target="_blank">Red Hat OpenShift</a></li>
           <li>Angular JS</li>
           <li>Docker</li>
           <li>Yeoman</li>

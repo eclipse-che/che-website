@@ -84,7 +84,7 @@
 <div class="tech">
   <div class="container-fluid content">
     <h2>Powered by Eclipse Che</h2>
-    <p>Interested in building your own plug-in?  We have <a href="<?php echo $rootPath; ?>/docs/plugins/introduction/" target="blank">documentation to help you get started</a>, or you can reach out to <a href="<?php echo $rootPath; ?>/community/">our community</a>.</p>
+    <p>Interested in building your own plug-in?  We have <a href="https://www.eclipse.org/che/docs/che-7/contributor-guide/developing-che-theia-plug-ins/" target="blank">documentation to help you get started</a>, or you can reach out to <a href="<?php echo $rootPath; ?>/community/">our community</a>.</p>
     <img alt="" class="img-responsive" src="../../images/hero-home-technology.png" />
 
     <div class="row">
@@ -108,7 +108,7 @@
         <ul>
           <li><a href="<?php echo $rootPath; ?>/codenvy/">Codenvy</a></li>
           <li><a href="<?php echo $rootPath; ?>/sap/">SAP HANA</a></li>
-          <li><a href="<?php echo $rootPath; ?>/docs/openshift/config/" target="_blank">Red Hat OpenShift</a></li>
+          <li><a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/importing-kubernetes-applications-into-a-workspace//" target="_blank">Red Hat OpenShift</a></li>
           <li>Angular JS</li>
           <li>Docker</li>
           <li>Yeoman</li>

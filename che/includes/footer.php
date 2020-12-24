@@ -7,8 +7,8 @@
           <ul>
             <li><a href="<?php echo $rootPath; ?>/getting-started/">Get Started</a></li>
             <li><a href="<?php echo $rootPath; ?>/getting-started/cloud/">SaaS</a></li>
-            <li><a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" target="_blank">Install</a></li>
-            <li><a href="<?php echo $rootPath; ?>/docs/" target="_blank">Docs</a></li>
+            <li><a href="https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che/" target="_blank">Install</a></li>
+            <li><a href="https://www.eclipse.org/che/docs/" target="_blank">Docs</a></li>
             <li><a href="<?php echo $rootPath; ?>/extend/codenvy">Commercial Support</a></li>
           </ul>
           <ul>
@@ -22,12 +22,9 @@
           </ul>
           <ul>
             <li><a href="<?php echo $rootPath; ?>/extend/">Extend</a></li>
-            <li><a href="<?php echo $rootPath; ?>/docs/stacks.html" target="_blank">Stacks</a></li>
-            <li><a href="<?php echo $rootPath; ?>/docs/recipes.html" target="_blank">Recipes</a></li>
-            <li><a href="<?php echo $rootPath; ?>/docs/projects.html" target="_blank">Projects</a></li>
-            <li><a href="<?php echo $rootPath; ?>/docs/assemblies.html" target="_blank">Assemblies</a></li>
-            <li><a href="<?php echo $rootPath; ?>/docs/che-in-che-quickstart.html" target="_blank">Plugins</a></li>
-            <li><a href="<?php echo $rootPath; ?>/docs/rest-api.html" target="_blank">APIs</a></li>
+            <li><a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/making-a-workspace-portable-using-a-devfile/" target="_blank">Devfiles</a></li>
+            <li><a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/adding-a-vs-code-extension-to-a-workspace/" target="_blank">VS Code extensions</a></li>
+            <li><a href="https://www.eclipse.org/che/docs/che-7/contributor-guide/che-extensibility-reference/" target="_blank">APIs</a></li>
           </ul>
           <ul>
             <li><a href="<?php echo $rootPath; ?>/community/">Community</a></li>

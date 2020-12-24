@@ -63,7 +63,7 @@
     </div>
     <div class="col-sm-12 col-md-3">
         <a href="<?php echo $rootPath; ?>/getting-started/cloud/" class="btn-gray80">All Sample Stacks</a>
-        <a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" class="btn-yellow">Other Installation Options</a>
+        <a href="https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che/" class="btn-yellow">Other Installation Options</a>
     </div>
   </div>
 </div>
@@ -177,8 +177,8 @@
       </div>
       <div class="col-md-6">
         <h3>Local Install</h3>
-        <p>Install Eclipse Che on localhost or shared K8S cluster.</p>
-        <a href="<?php echo $rootPath; ?>/docs/che-7/che-quick-starts/" class="btn-yellow">Download</a>
+        <p>Install Eclipse Che on localhost or shared Kubernetes cluster.</p>
+        <a href="https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che/" class="btn-yellow">Install</a>
 
       </div>
 
