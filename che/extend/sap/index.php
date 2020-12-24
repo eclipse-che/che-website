@@ -59,7 +59,7 @@
   <div class="container-fluid content">
     <h2>Powered by Eclipse Che</h2>
     <p>The SAP Web IDE uses Eclipse Che's workspace server to provision and manage all developer workspaces. SAP created a custom IDE UI that is tailored to their technical stack, extensions, business logic and integrations. The UI communicates over RESTful interfaces with Che to create a seamless experience for the user. <a href="https://eaexplorer.hana.ondemand.com/_item.html?id=10667#!/overview" target="_blank">Learn more</a> about the SAP Web IDE, or <a href="https://hcp.sap.com/try.html" target="_blank">try it out</a> on the SAP HANA Cloud.</p>
-    <p>Interested in building your own stacks?  We have <a href="<?php echo $rootPath; ?>/docs/plugins/introduction/" target="_blank">documentation to help you get started with stacks</a> - it's easy! If you have any questions, reach out to <a href="<?php echo $rootPath; ?>/community/">our community</a>.</p>
+    <p>Interested in building your own stacks?  We have <a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/making-a-workspace-portable-using-a-devfile/" target="_blank">documentation to help you get started with devfiles</a> - it's easy! If you have any questions, reach out to <a href="<?php echo $rootPath; ?>/community/">our community</a>.</p>
 
     <div class="row">
       <div class="col-md-3 col-sm-6">
@@ -82,7 +82,7 @@
         <ul>
           <li><a href="<?php echo $rootPath; ?>/extend/artik/">Samsung ARTIK</a></li>
           <li><a href="<?php echo $rootPath; ?>/extend/codenvy/">Codenvy</a></li>
-          <li><a href="<?php echo $rootPath; ?>/docs/openshift/config/" target="_blank">Red Hat OpenShift</a></li>
+          <li><a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/importing-kubernetes-applications-into-a-workspace/" target="_blank">Red Hat OpenShift</a></li>
           <li>Angular JS</li>
           <li>Docker</li>
           <li>Yeoman</li>

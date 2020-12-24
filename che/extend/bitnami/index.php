@@ -64,7 +64,7 @@
   <div class="container-fluid content">
     <h2>Powered by Eclipse Che</h2>
     <p>Bitnami containers extend Che's runtime stack support, providing environments for <a href="https://github.com/bitnami/bitnami-docker-express" target="_blank">Express</a>, <a href="https://github.com/bitnami/bitnami-docker-laravel" target="_blank">Laravel</a>, <a href="https://github.com/bitnami/bitnami-docker-rails" target="_blank">Rails</a>, <a href="https://github.com/bitnami/bitnami-docker-symfony" target="_blank">Symfony</a>, <a href="https://github.com/bitnami/bitnami-docker-swift" target="_blank">Swift</a> and others.</p>
-    <p>Interested in building your own stacks?  We have <a href="<?php echo $rootPath; ?>/docs/plugins/introduction/" target="_blank">documentation to help you get started with stacks</a> - it's easy! If you have any questions, reach out to <a href="<?php echo $rootPath; ?>/community/">our community</a>.</p>
+    <p>Interested in building your own stacks?  We have <a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/making-a-workspace-portable-using-a-devfile/" target="_blank">documentation to help you get started with devfiles</a> - it's easy! If you have any questions, reach out to <a href="<?php echo $rootPath; ?>/community/">our community</a>.</p>
   </div> <!-- .container-fluid -->
 </div> <!-- .tech -->
 
