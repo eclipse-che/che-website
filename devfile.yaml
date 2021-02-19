@@ -6,15 +6,10 @@ attributes:
   persistVolumes: 'false'
   
 components:
-  - alias: git
-    type: dockerimage
-    image: sunix/git-devtools
-    mountSources: true
-    memoryLimit: 256M
 
   - alias: php
     type: dockerimage
-    image: eclipse/php
+    image: registry.redhat.io/codeready-workspaces/stacks-php-rhel8@sha256:3f6dc2515ef3ce5f7d28368f3159c357973a633300a57a809d8c3044bb685719
     mountSources: true
     memoryLimit: 256M
     args: ['sleep', 'infinity']
