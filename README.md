@@ -3,7 +3,9 @@ https://www.eclipse.org/che website mirror
 
 ## Contribute with the devfile
 
-Use the factory url https://che.openshift.io/f?url=https://github.com/eclipse/che-website.
+[![Contribute](https://raw.githubusercontent.com/redhat-developer-demos/quarkus-reactjs-postit-app/master/factory-contribute.svg)](https://workspaces.openshift.com/f?url=https://github.com/eclipse/che-website)
+
+Use the factory url https://workspaces.openshift.com/f?url=https://github.com/eclipse/che-website.
 
 This factory will start che and clone the repo che-website.
 
