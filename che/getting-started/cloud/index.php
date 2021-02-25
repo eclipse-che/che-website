@@ -41,9 +41,9 @@
            <h4>Custom</h4>
            <p class="small">Create workspaces for any language/framework.</p>
          </div>
-         <a href="https://che.openshift.io/" class="btn-green">Create a free account</a>
+         <a href="https://workspaces.openshift.com/" class="btn-green">Create a free account</a>
        </div>
-       <p style="font-size:0.7em">Requires a che.openshift.io account. You will be asked to accept their TOS.
+       <p style="font-size:0.7em">Requires a <a href="https://developers.redhat.com/developer-sandbox">Developer Sandbox for Red Hat OpenShift</a> account. You will be asked to accept their TOS.
 
      </div> <!-- /.col -->
    </div> <!-- /.row -->
@@ -57,13 +57,13 @@
   <div class="row">
     <div class="col-md-12">
       <small>Enter a git URL to import</small>
-      <form class="form-inline" method="get" action="https://che.openshift.io/f/" target="_blank">
+      <form class="form-inline" method="get" action="https://workspaces.openshift.com/f/" target="_blank">
         <div class="form-group" style="width: 80%">
           <input type="text" class="form-control" name="url" value="https://github.com/che-samples/console-java-simple" placeholder="Enter GitHub or GitLab project URL" style="width: 100%">
         </div>
         <button type="submit" class="btn btn-primary">Go!</button>
       </form>
-      <p style="font-size:0.7em">This will create a new workspace in che.openshift.io, an Eclipse Che provider. You will be asked to accept their TOS. The workspace will be powered with an Ubuntu / JDK8 stack. You can customize the runtime and project configuration by adding <samp>che.json</samp> files inside your repository.
+      <p style="font-size:0.7em">This will create a new workspace in workspaces.openshift.com, an Eclipse Che provider. You will be asked to accept their TOS. The workspace will be powered with an Ubuntu / JDK8 stack. You can customize the runtime and project configuration by adding <samp>che.json</samp> files inside your repository.
         <a href="https://www.eclipse.org/che/docs/che-7/end-user-guide/workspaces-overview/">See docs</a>.</p>
     </div>
   </div>

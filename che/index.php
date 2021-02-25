@@ -37,7 +37,7 @@
   <div class="row">
     <div class="col-sm-4 col-md-3">
         <div class="border media">
-         <a href="https://che.openshift.io/" class="media-body">
+         <a href="https://workspaces.openshift.com/" class="media-body">
            <p>Try</p>
            <h4>Custom</h4>
          </a>
@@ -46,7 +46,7 @@
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="border media">
-         <a href="https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/quarkus/devfile.yaml" class="media-body">
+         <a href="https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/quarkus/devfile.yaml" class="media-body">
            <p>Launch sample stack</p>
            <h4>Quarkus</h4>
          </a>
@@ -55,7 +55,7 @@
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="border media">
-         <a href="https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/angular/devfile.yaml" class="media-body">
+         <a href="https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/angular/devfile.yaml" class="media-body">
            <p>Launch sample stack</p>
            <h4>Angular 2</h4>
          </a>
