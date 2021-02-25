@@ -18,7 +18,7 @@
 <div class="jumbotron">
   <div class="container-fluid">
     <h1>Eclipse Che hosted by Red Hat</h1>
-    <h3>Self-service Eclipse Che developer workspaces hosted at che.openshift.io</h3>
+    <h3>Self-service Eclipse Che developer workspaces hosted at workspaces.openshift.com</h3>
   </div> <!-- /.container-fluid -->
 </div> <!-- /.jumbotron -->
 
