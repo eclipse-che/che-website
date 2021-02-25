@@ -25,7 +25,7 @@
     <div class="col-md-6">
       <img src="../images/getting-started/icon-saas-cloud.jpg" alt="Eclipse Che | SaaS Cloud">
       <h3>Eclipse Che hosted by Red Hat</h3>
-      <p>Self-service Che workspaces hosted at che.openshift.io</p>
+      <p>Self-service Che workspaces hosted at workspaces.openshift.com</p>
         <a href="<?php echo $rootPath; ?>/getting-started/cloud/" class="btn-yellow">Create Free Account</a></li>
     </div>
 

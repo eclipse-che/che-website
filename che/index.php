@@ -33,7 +33,6 @@
 <hr class="gray">
 <div class="container-fluid content start-working">
 <h3>Try Eclipse Che using the online service hosted by Red Hat</h3>
-<blockquote style="border-style:solid;border-color:red"><a href="https://che.openshift.io/">Eclipse Che hosted by Red Hat</a> is going to be shut down on <strong>March 1, 2021 at 00:01 GMT</strong>. A new service based on <a href='https://developers.redhat.com/developer-sandbox#assembly-field-sections-59571'>Red Hat CodeReady Workspaces</a> is available now. <a href='https://developers.redhat.com/developer-sandbox'>Developer Sandbox for Red Hat OpenShift</a> provides more details about the new service.</blockquote>
 
   <div class="row">
     <div class="col-sm-4 col-md-3">
@@ -174,7 +173,7 @@
     <div class="row">
       <div class="col-md-6">
         <h3>SaaS</h3>
-        <p>Self-service Che workspaces hosted at che.openshift.io</p>
+        <p>Self-service Che workspaces hosted at workspaces.openshift.com</p>
         <a href="<?php echo $rootPath; ?>/getting-started/cloud/" class="btn-yellow">Create Free Account</a></li>
       </div>
       <div class="col-md-6">
