@@ -3,21 +3,6 @@
   "factories":
   [
      {
-       "name": "Angular",
-       "desc": "Angular codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the RealWorld spec and API",
-       "logo": "images/2i2ikikl4kif87l9.png",
-       "project": "https://github.com/gothinkster/angular-realworld-example-app.git",
-       "website": "https://angular.realworld.io/",
-       "category": "tutorial",
-       "badgedRepository": false,
-       "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/angular/devfile.yaml",
-       "languages": [
-            "javascript"
-
-        ]
-     },
-     {
        "name": "Go",
        "desc": "Official Go example projects",
        "logo": "images/golang.png",
@@ -26,7 +11,7 @@
        "category": "tutorial",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/go/devfile.yaml",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/eclipse/che-devfile-registry/master/devfiles/go/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "go"
 
@@ -41,7 +26,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/java-gradle/devfile.yaml",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/03_java11-gradle/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -56,7 +41,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/java-maven/devfile.yaml",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/02_java-maven/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -71,7 +56,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/nodejs/devfile.yaml",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/03_web-nodejs-simple/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "javascript"
 
@@ -86,52 +71,22 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/php/devfile.yaml",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/05_php-web-simple/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "php"
 
         ]
      },
      {
-       "name": "Spring",
-       "desc": "Java Spring PetClinic web app example",
-       "logo": "images/r6p0l1sfnwm99k94.png",
-       "project": "https://github.com/spring-projects/spring-petclinic.git",
-       "website": "",
-       "category": "tutorial",
-       "badgedRepository": false,
-       "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/spring-petclinic/devfile.yaml",
-       "languages": [
-            "java"
-
-        ]
-     },
-     {
        "name": "Spring Boot",
-       "desc": "Java web app example for rapid development",
+       "desc": "Spring PetClinic Sample Application",
        "logo": "images/sz7uzyofb8olekkn.png",
-       "project": "https://github.com/che-samples/web-java-spring-boot.git",
-       "website": "",
-       "category": "che samples",
-       "badgedRepository": false,
-       "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/spring-boot/devfile.yaml",
-       "languages": [
-            "java"
-
-        ]
-     },
-     {
-       "name": "Spring Rest Guide",
-       "desc": "Learn how to create a RESTful web service with Spring",
-       "logo": "images/9fq0busbm3tz7i8c.png",
-       "project": "https://github.com/spring-guides/gs-rest-service",
-       "website": "http://spring.io/guides/gs/rest-service/",
+       "project": "https://github.com/spring-projects/spring-petclinic.git",
+       "website": "https://github.com/spring-projects/spring-petclinic.git",
        "category": "tutorial",
        "badgedRepository": true,
-       "badgeLink": "https://github.com/spring-guides/gs-rest-service",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/spring-rest-guide/devfile.yaml",
+       "badgeLink": "https://github.com/spring-projects/spring-petclinic.git",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/eclipse/che-devfile-registry/master/devfiles/java-web-spring/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -146,7 +101,7 @@
        "category": "samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/vaadin-addressbook/devfile.yaml",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/vaadin-addressbook/devfile.yaml",
        "languages": [
             "java"
 
@@ -156,12 +111,12 @@
        "name": "Vert.x verticle",
        "desc": "Example web app for reactive applications on the JVM",
        "logo": "images/9skz1321dxbqpj5j.png",
-       "project": "https://github.com/openshift-vertx-examples/vertx-http-example",
+       "project": "https://github.com/openshiftio-vertx-boosters/vertx-http-booster",
        "website": "http://vertx.io/",
        "category": "samples",
        "badgedRepository": true,
        "badgeLink": "https://github.com/vert-x3/vertx-examples",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/vertx/devfile.yaml",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/03_vertx-http-booster/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -176,7 +131,7 @@
        "category": "che samples",
        "badgedRepository": true,
        "badgeLink": "",
-       "factory": "https://che.openshift.io/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/quarkus/devfile.yaml",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/03_java11-quarkus/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
