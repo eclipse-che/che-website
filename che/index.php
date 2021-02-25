@@ -46,7 +46,7 @@
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="border media">
-         <a href="https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/quarkus/devfile.yaml" class="media-body">
+         <a href="https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2.6-rhel-8/dependencies/che-devfile-registry/devfiles/03_java11-quarkus/devfile.yaml&override.attributes.persistVolumes=false" class="media-body">
            <p>Launch sample stack</p>
            <h4>Quarkus</h4>
          </a>
@@ -55,11 +55,11 @@
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="border media">
-         <a href="https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/devfile/master/getting-started/angular/devfile.yaml" class="media-body">
+         <a href="https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2.6-rhel-8/dependencies/che-devfile-registry/devfiles/05_python/devfile.yaml&override.attributes.persistVolumes=false" class="media-body">
            <p>Launch sample stack</p>
-           <h4>Angular 2</h4>
+           <h4>Python</h4>
          </a>
-         <p class="media-content">Official Angular 2 quick start tutorial.</p>
+         <p class="media-content">Official Python quick start tutorial.</p>
         </div>
     </div>
     <div class="col-sm-12 col-md-3">
