@@ -26,7 +26,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/03_java11-gradle/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2.6-rhel-8/dependencies/che-devfile-registry/devfiles/03_java11-gradle/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -41,7 +41,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/02_java-maven/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2.6-rhel-8/dependencies/che-devfile-registry/devfiles/02_java-maven/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -56,7 +56,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/03_web-nodejs-simple/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2.6-rhel-8/dependencies/che-devfile-registry/devfiles/03_web-nodejs-simple/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "javascript"
 
@@ -71,7 +71,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/05_php-web-simple/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2.6-rhel-8/dependencies/che-devfile-registry/devfiles/05_php-web-simple/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "php"
 
@@ -116,7 +116,7 @@
        "category": "samples",
        "badgedRepository": true,
        "badgeLink": "https://github.com/vert-x3/vertx-examples",
-       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/03_vertx-http-booster/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2.6-rhel-8/dependencies/che-devfile-registry/devfiles/03_vertx-http-booster/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -131,7 +131,7 @@
        "category": "che samples",
        "badgedRepository": true,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2-rhel-8/dependencies/che-devfile-registry/devfiles/03_java11-quarkus/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/crw-2.6-rhel-8/dependencies/che-devfile-registry/devfiles/03_java11-quarkus/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
