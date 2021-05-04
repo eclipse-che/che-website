@@ -26,7 +26,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_java11-gradle/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_java11-maven-gradle/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -34,14 +34,14 @@
      },
      {
        "name": "Java + Maven",
-       "desc": "Hello world console app with 'build' and 'run' commands",
+       "desc": "Java stack with OpenJDK 11, Maven 3.6.3 and Vert.x demo",
        "logo": "images/omriatu352kkthua.png",
        "project": "https://github.com/che-samples/console-java-simple.git",
        "website": "",
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/02_java-maven/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_java11-maven-vertx/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -56,7 +56,7 @@
        "category": "che samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_web-nodejs-simple/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/04_nodejs-simple/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "javascript"
 
@@ -86,7 +86,7 @@
        "category": "tutorial",
        "badgedRepository": true,
        "badgeLink": "https://github.com/spring-projects/spring-petclinic.git",
-       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_spring-boot-http-booster/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_java8-maven-spring-boot-http-booster/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -116,7 +116,7 @@
        "category": "samples",
        "badgedRepository": true,
        "badgeLink": "https://github.com/vert-x3/vertx-examples",
-       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_vertx-http-booster/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_java11-maven-vertx-http-booster/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
@@ -131,7 +131,7 @@
        "category": "che samples",
        "badgedRepository": true,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_java11-quarkus/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/03_java11-maven-quarkus/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 
