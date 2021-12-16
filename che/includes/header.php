@@ -20,7 +20,7 @@
             <li><a href="<?php echo $rootPath; ?>/technology/">How it Works</a></li>
             <li><a href="<?php echo $rootPath; ?>/extend/">Extend</a></li>
             <li><a target="_blank" href="https://www.eclipse.org/che/docs/">Docs</a></li>
-            <li><a target="_blank"  href="https://medium.com/eclipse-che-blog">Blog</a></li>
+            <li><a target="_blank"  href="https://che.eclipseprojects.io/">Blog</a></li>
             <!--<li><a href="<?php echo $rootPath; ?>/media/">Articles</a></li>-->
             <li><a class="btn-yellow" href="<?php echo $rootPath; ?>/getting-started/">Start Now</a></li>
             <!--<li><a class="github-button" href="https://github.com/eclipse/che" data-icon="octicon-star" data-show-count="true" aria-label="Star eclipse/che on GitHub">Star</a></li> -->
