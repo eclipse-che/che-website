@@ -101,7 +101,7 @@
        "category": "samples",
        "badgedRepository": false,
        "badgeLink": "",
-       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/05_python/devfile.yaml&override.attributes.persistVolumes=false",
+       "factory": "https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/04_python/devfile.yaml&override.attributes.persistVolumes=false",
        "languages": [
             "java"
 

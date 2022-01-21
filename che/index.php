@@ -55,7 +55,7 @@
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="border media">
-         <a href="https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/05_python/devfile.yaml&override.attributes.persistVolumes=false" class="media-body">
+         <a href="https://workspaces.openshift.com/f?url=https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/devfile-registry/devfiles/04_python/devfile.yaml&override.attributes.persistVolumes=false" class="media-body">
            <p>Launch sample stack</p>
            <h4>Python</h4>
          </a>
