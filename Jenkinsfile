@@ -7,7 +7,7 @@ pipeline {
     PROJECT_BOT_NAME = "CHE Bot"
   }
  
-  triggers { pollSCM('H/10 * * * *') 
+  // triggers { pollSCM('H/10 * * * *') 
  
  }
  
