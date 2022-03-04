@@ -30,7 +30,7 @@ spec:
           memory: "512Mi"
           cpu: "200m"
     - name: website-buildenv
-      image: docker.io/node:16.14.0-alpine
+      image: docker.io/node:16.14.0-bullseye
       tty: true
       resources:
         limits:
