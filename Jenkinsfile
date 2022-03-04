@@ -92,6 +92,9 @@ spec:
             nvm install v16
             nvm use v16
             npm install -g yarn@1.22.17
+            cd /tmp
+            git clone --branch main https://github.com/eclipse/che-website
+            cd che-website
             # Install all dependencies
             yarn
             # Generate build
