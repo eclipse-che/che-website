@@ -3,8 +3,8 @@
 	import Java from '@icons-pack/svelte-simple-icons/src/components/Java.svelte';
 	import Go from '@icons-pack/svelte-simple-icons/src/components/Go.svelte';
 	import Python from '@icons-pack/svelte-simple-icons/src/components/Python.svelte';
-	import ReactJs from '@icons-pack/svelte-simple-icons/src/components/Reactjs.svelte';
-	import DotNet from '@icons-pack/svelte-simple-icons/src/components/Dotnet.svelte';
+	import ReactJs from '@icons-pack/svelte-simple-icons/src/components/ReactJs.svelte';
+	import DotNet from '@icons-pack/svelte-simple-icons/src/components/DotNet.svelte';
 	import Rust from '@icons-pack/svelte-simple-icons/src/components/Rust.svelte';
 	import Quarkus from '@icons-pack/svelte-simple-icons/src/components/Quarkus.svelte';
 	import Spring from '@icons-pack/svelte-simple-icons/src/components/Spring.svelte';
