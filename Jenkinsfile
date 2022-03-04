@@ -30,7 +30,7 @@ spec:
           memory: "512Mi"
           cpu: "200m"
     - name: website-buildenv
-      image: docker.io/node:16.14.0-bullseye
+      image: registry.access.redhat.com/ubi8/nodejs-16:1-11.1645816860 
       tty: true
       resources:
         limits:
@@ -87,11 +87,7 @@ spec:
         echo 'Building..'
         dir ('www') {
           sh '''
-            mkdir -p /tmp/home
-            export HOME=/tmp/home
-            #mkdir -p /tmp/yarn-folder/cache
-            #echo "--global-folder /tmp/yarn-folder/global" > .yarnrc
-            #echo "--cache-folder /tmp/yarn-folder/cache" >> .yarnrc
+            npm install -g yarn@1.22.17
             # Install all dependencies
             yarn
             # Generate build
