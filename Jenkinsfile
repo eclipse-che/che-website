@@ -30,7 +30,7 @@ spec:
           memory: "512Mi"
           cpu: "200m"
     - name: website-buildenv
-      image: quay.io/devfile/universal-developer-image
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
       tty: true
       resources:
         limits:
