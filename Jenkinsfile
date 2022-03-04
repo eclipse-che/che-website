@@ -86,8 +86,11 @@ spec:
         echo 'Building..'
         dir ('www') {
           sh '''
+            # Install all dependencies
+            yarn
             # Generate build
             yarn build
+            ls -la build
           '''
         }
         }
@@ -102,8 +105,11 @@ spec:
         dir('www') {
             sshagent(['git.eclipse.org-bot-ssh']) {
                 sh '''
+                echo $(pwd)
                 ls -la
                 cd "${WEBSITE}"
+                echo $(pwd)
+                ls -la
                 
                 '''
 /*
