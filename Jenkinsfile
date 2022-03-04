@@ -88,7 +88,7 @@ spec:
         dir ('www') {
           sh '''
             curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-            source ~/.bashrc
+            source ~/.nvm/nvm.sh
             nvm install v16
             nvm use v16
             npm install -g yarn@1.22.17
