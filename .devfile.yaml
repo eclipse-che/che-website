@@ -10,7 +10,7 @@ components:
       memoryLimit: 5Gi
       cpuLimit: 2500m
       endpoints:
-        - name: quarkus-development-server
+        - name: eclipse-che-website
           targetPort: 3000
           exposure: public
           secure: false
