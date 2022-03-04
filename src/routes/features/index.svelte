@@ -4,7 +4,7 @@
 	import GitHub from '@icons-pack/svelte-simple-icons/src/components/Github.svelte';
 	import Gitlab from '@icons-pack/svelte-simple-icons/src/components/Gitlab.svelte';
 	import Bitbucket from '@icons-pack/svelte-simple-icons/src/components/Bitbucket.svelte';
-	import LinuxContainers from '@icons-pack/svelte-simple-icons/src/components/LinuxContainers.svelte';
+	import LinuxContainers from '@icons-pack/svelte-simple-icons/src/components/Linuxcontainers.svelte';
 	import { variables } from '$lib/variables';
 
 	let shareDevfileImage;

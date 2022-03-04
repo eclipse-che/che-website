@@ -2,9 +2,9 @@
 	import Rss from '$lib/rss/Rss.svelte';
 	import { darkModeThemeEnabled } from '$lib/theme/colorTheme';
 	import { onMount } from 'svelte';
-	import VisualStudioCode from '@icons-pack/svelte-simple-icons/src/components/VisualStudioCode.svelte';
+	import VisualStudioCode from '@icons-pack/svelte-simple-icons/src/components/Visualstudiocode.svelte';
 	import Jetbrains from '@icons-pack/svelte-simple-icons/src/components/Jetbrains.svelte';
-	import EclipseIDE from '@icons-pack/svelte-simple-icons/src/components/EclipseIDE.svelte';
+	import EclipseIDE from '@icons-pack/svelte-simple-icons/src/components/Eclipseide.svelte';
 	import Try from '$lib/try/Try.svelte';
 	import { variables } from '$lib/variables';
 
