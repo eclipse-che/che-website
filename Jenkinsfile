@@ -92,7 +92,7 @@ spec:
             yarn
             # Generate build
             yarn build
-            ls -la build
+            ls -la
           '''
         }
         }
