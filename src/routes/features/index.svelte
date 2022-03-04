@@ -48,7 +48,7 @@
 		</h1>
 		<p class="mb-8 leading-relaxed">Connect your GitHub, Gitlab or Bitbucket identity using OAuth.</p>
 	  </div>
-	  <div class="lg:max-w-lg lg:w-full md:w-1/4 w-1/6 flex flex:Ccol gap-10">
+	  <div class="lg:max-w-lg lg:w-full md:w-1/4 w-1/6 flex flex:col gap-10">
 		<GitHub size={90} />
 		<Gitlab size={90} />
 		<Bitbucket size={90} />
