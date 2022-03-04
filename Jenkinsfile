@@ -87,10 +87,11 @@ spec:
         echo 'Building..'
         dir ('www') {
           sh '''
-            mkdir -p /tmp/yarn-folder/global
-            mkdir -p /tmp/yarn-folder/cache
-            echo "--global-folder /tmp/yarn-folder/global" > .yarnrc
-            echo "--cache-folder /tmp/yarn-folder/cache" >> .yarnrc
+            mkdir -p /tmp/home
+            export HOME=/tmp/home
+            #mkdir -p /tmp/yarn-folder/cache
+            #echo "--global-folder /tmp/yarn-folder/global" > .yarnrc
+            #echo "--cache-folder /tmp/yarn-folder/cache" >> .yarnrc
             # Install all dependencies
             yarn
             # Generate build
