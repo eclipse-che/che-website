@@ -85,13 +85,13 @@ spec:
         echo 'Building..'
           sh '''
             echo "Building.."
-            echo $(pwd)
+            # use a writable directory for the build
             export HOME=/tmp/yarn
             # Install all dependencies
             yarn
             # Generate build
             yarn build
-            ls -la
+            # Copy build result
             cp -r build/che/* www/
           '''
         }
@@ -102,18 +102,10 @@ spec:
         branch 'main'
       }
       steps {
-        sh 'ls -la; echo $(pwd)'
         dir('www') {
             sshagent(['git.eclipse.org-bot-ssh']) {
                 sh '''
-                echo $(pwd)
-                ls -la
-                echo $(pwd)
-                ls -la
-                git diff
-                '''
-/*
-                cp -Rvf ../che-website/che/* .
+                PAGER= git diff .
                 git add -A
                 if ! git diff --cached --exit-code; then
                   echo "Changes have been detected, publishing to repo 'www.eclipse.org/${PROJECT_NAME}'"
@@ -122,11 +114,11 @@ spec:
                   export DOC_COMMIT_MSG=$(git log --oneline --format=%B -n 1 HEAD | tail -1)
                   git commit -m "[website] ${DOC_COMMIT_MSG}"
                   git log --graph --abbrev-commit --date=relative -n 5
-                  git push origin HEAD:${BRANCH_NAME}
+                  # git push origin HEAD:${BRANCH_NAME}
                 else
                   echo "No change have been detected since last build, nothing to publish"
                 fi
-*/
+                '''
             }
         }
       }
