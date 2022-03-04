@@ -1,0 +1,34 @@
+schemaVersion: 2.1.0
+metadata:
+  generateName: eclipse-che-website
+attributes:
+  controller.devfile.io/storage-type: ephemeral
+components:
+  - name: development-tooling
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
+      memoryLimit: 5Gi
+      cpuLimit: 2500m
+      endpoints:
+        - name: quarkus-development-server
+          targetPort: 3000
+          exposure: public
+          secure: false
+          protocol: http
+commands:
+  - id: install
+    exec:
+      label: "1. Install the dependencies"
+      component: development-tooling
+      commandLine: "yarn"
+      group:
+        kind: build
+        isDefault: true
+  - id: start-dev
+    exec:
+      label: "2. Start Development mode (Hot reload + debug)"
+      component: development-tooling
+      commandLine: "yarn dev"
+      group:
+        kind: run
+        isDefault: true
