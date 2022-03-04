@@ -30,7 +30,7 @@ spec:
           memory: "512Mi"
           cpu: "200m"
     - name: website-buildenv
-      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      image: node:16.14.0-bullseye
       tty: true
       resources:
         limits:
@@ -87,14 +87,7 @@ spec:
         echo 'Building..'
         dir ('www') {
           sh '''
-            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-            source ~/.nvm/nvm.sh
-            nvm install v16
-            nvm use v16
-            npm install -g yarn@1.22.17
-            cd /tmp
-            git clone --branch main https://github.com/eclipse/che-website
-            cd che-website
+            export HOME=/tmp/yarn
             # Install all dependencies
             yarn
             # Generate build
