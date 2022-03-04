@@ -66,6 +66,7 @@ spec:
   }
  
   stages {
+    /*
     stage('Checkout') {
       steps {
        container('jnlp') {
@@ -79,18 +80,21 @@ spec:
         }
        }
       }
-    }
+    }*/
     stage('Generate site') {
       steps {
         container('website-buildenv') {
         echo 'Building..'
         dir ('www') {
           sh '''
-            mkdir -p /tmp/yarn-folder
+            mkdir -p /tmp/yarn-folder/global
+            mkdir -p /tmp/yarn-folder/cache
+            echo "--global-folder /tmp/yarn-folder/global" > ~/.yarnrc
+            echo "--cache-folder /tmp/yarn-folder/cache" >> ~/.yarnrc
             # Install all dependencies
-            yarn --global-folder /tmp/yarn-folder install
+            yarn
             # Generate build
-            yarn --global-folder /tmp/yarn-folder build
+            yarn build
             ls -la build
           '''
         }
