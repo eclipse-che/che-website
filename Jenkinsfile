@@ -39,9 +39,6 @@ spec:
         requests:
           memory: "2Gi"
           cpu: "1"
-      volumeMounts:
-      - name: volume-known-hosts
-        mountPath: /home/jenkins/.ssh
   volumes:
   - name: volume-known-hosts
     configMap:
@@ -86,7 +83,6 @@ spec:
       steps {
         container('website-buildenv') {
         echo 'Building..'
-        dir ('www') {
           sh '''
             echo "Building.."
             echo $(pwd)
@@ -96,8 +92,8 @@ spec:
             # Generate build
             yarn build
             ls -la
+            cp -r build/che/* www/
           '''
-        }
         }
       }
     }    
@@ -112,11 +108,9 @@ spec:
                 sh '''
                 echo $(pwd)
                 ls -la
-                echo "Website ${WEBSITE}"
-                cd "${WEBSITE}"
                 echo $(pwd)
                 ls -la
-                
+                git diff
                 '''
 /*
                 cp -Rvf ../che-website/che/* .
