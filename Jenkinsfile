@@ -86,10 +86,11 @@ spec:
         echo 'Building..'
         dir ('www') {
           sh '''
+            mkdir -p /tmp/yarn-folder
             # Install all dependencies
-            yarn
+            yarn --global-folder /tmp/yarn-folder install
             # Generate build
-            yarn build
+            yarn --global-folder /tmp/yarn-folder build
             ls -la build
           '''
         }
