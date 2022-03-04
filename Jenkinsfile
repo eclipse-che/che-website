@@ -66,7 +66,6 @@ spec:
   }
  
   stages {
-    /*
     stage('Checkout') {
       steps {
        container('jnlp') {
@@ -75,18 +74,22 @@ spec:
                 sh '''
                     GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no" git clone ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
                     git checkout master
+                    echo "end of checkout"
+                    echo $(pwd)
                 '''
             }
         }
        }
-      }
-    }*/
+      } 
+    }
     stage('Generate site') {
       steps {
         container('website-buildenv') {
         echo 'Building..'
         dir ('www') {
           sh '''
+            echo "Building.."
+            echo $(pwd)
             export HOME=/tmp/yarn
             # Install all dependencies
             yarn
@@ -103,12 +106,13 @@ spec:
         branch 'main'
       }
       steps {
-        sh 'ls -la'
+        sh 'ls -la; echo $(pwd)'
         dir('www') {
             sshagent(['git.eclipse.org-bot-ssh']) {
                 sh '''
                 echo $(pwd)
                 ls -la
+                echo "Website ${WEBSITE}"
                 cd "${WEBSITE}"
                 echo $(pwd)
                 ls -la
