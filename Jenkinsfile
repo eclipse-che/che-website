@@ -89,8 +89,8 @@ spec:
           sh '''
             mkdir -p /tmp/yarn-folder/global
             mkdir -p /tmp/yarn-folder/cache
-            echo "--global-folder /tmp/yarn-folder/global" > ~/.yarnrc
-            echo "--cache-folder /tmp/yarn-folder/cache" >> ~/.yarnrc
+            echo "--global-folder /tmp/yarn-folder/global" > .yarnrc
+            echo "--cache-folder /tmp/yarn-folder/cache" >> .yarnrc
             # Install all dependencies
             yarn
             # Generate build
