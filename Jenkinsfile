@@ -30,7 +30,7 @@ spec:
           memory: "512Mi"
           cpu: "200m"
     - name: website-buildenv
-      image: registry.access.redhat.com/ubi8/nodejs-16:1-11.1645816860 
+      image: quay.io/devfile/universal-developer-image
       tty: true
       resources:
         limits:
@@ -87,6 +87,10 @@ spec:
         echo 'Building..'
         dir ('www') {
           sh '''
+            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+            source ~/.bashrc
+            nvm install v16
+            nvm use v16
             npm install -g yarn@1.22.17
             # Install all dependencies
             yarn
