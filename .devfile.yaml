@@ -1,14 +1,14 @@
 schemaVersion: 2.1.0
 metadata:
-  generateName: eclipse-che-website
+  name: eclipse-che-website
 attributes:
   controller.devfile.io/storage-type: ephemeral
 components:
   - name: development-tooling
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
-      memoryLimit: 5Gi
-      cpuLimit: 2500m
+      image: quay.io/devfile/universal-developer-image:ubi8-bf01a50
+      memoryLimit: 4Gi
+      cpuLimit: 1400m
       endpoints:
         - name: eclipse-che-website
           targetPort: 3000
@@ -28,7 +28,7 @@ commands:
     exec:
       label: "2. Start Development mode (Hot reload + debug)"
       component: development-tooling
-      commandLine: "yarn dev"
+      commandLine: "yarn dev --host=0.0.0.0"
       group:
         kind: run
         isDefault: true
