@@ -2,6 +2,11 @@
 	import { darkModeThemeEnabled } from '$lib/theme/colorTheme';
 	import { onMount } from 'svelte';
 	import { variables } from '$lib/variables';
+	import { pageTitle, pageDescription, pageUrl } from '$lib/stores';
+
+	$pageTitle = 'How it Works';
+	$pageDescription = 'A Closer Look at the High Level Architecture of Eclipse Che.';
+	$pageUrl = '/technology/';
 
 	let highLevelImage;
 	let devfileToDevWorkspaceImage;
