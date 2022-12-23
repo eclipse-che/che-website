@@ -38,45 +38,45 @@
   <div class="absolute inset-x-0 top-0 items-center justify-center hidden overflow-hidden md:flex md:inset-y-0">
   </div>
   <div class="relative grid gap-7 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-300 ">
-      <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/vertx-http-example/tree/devspaces-3-rhel-8'>
+      <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/vertx-http-example/tree/devspaces-3-rhel-8&storageType=ephemeral'>
         <Java size={70} color={$darkModeThemeEnabled ? 'currentColor' : '#007396'}  />
       </TryTechnology>
 
-      <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/golang-health-check/tree/devspaces-3-rhel-8'>
+      <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/golang-health-check/tree/devspaces-3-rhel-8&storageType=ephemeral'>
         <Go size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#00ADD8"}/>
       </TryTechnology>
 
-      <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/python-hello-world/tree/devspaces-3-rhel-8'>
+      <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/python-hello-world/tree/devspaces-3-rhel-8&storageType=ephemeral'>
         <Python size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#3776AB"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/nodejs-react-redux/tree/devfilev2'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/nodejs-react-redux/tree/devfilev2&storageType=ephemeral'>
         <ReactJs size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#61DAFB"}/>
     </TryTechnology>
 
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/dotnet-web-simple/tree/devspaces-3-rhel-8'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/dotnet-web-simple/tree/devspaces-3-rhel-8&storageType=ephemeral'>
         <DotNet size={70}  color={$darkModeThemeEnabled ? 'currentColor' : "#512BD4"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/helloworld-rust/tree/devfilev2'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/helloworld-rust/tree/devfilev2&storageType=ephemeral'>
         <Rust size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#000000"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/quarkus-quickstarts/tree/devspaces-3-rhel-8'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/quarkus-quickstarts/tree/devspaces-3-rhel-8&storageType=ephemeral'>
         <Quarkus size={70}  color={$darkModeThemeEnabled ? 'currentColor' : "#00ADD8"}/>
     </TryTechnology>
 
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/rest-http-example/tree/devspaces-3-rhel-8'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/rest-http-example/tree/devspaces-3-rhel-8&storageType=ephemeral'>
         <Spring size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#6DB33F"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com/#https://github.com/che-samples/nodejs-angular/tree/devfilev2'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/#https://github.com/che-samples/nodejs-angular/tree/devfilev2&storageType=ephemeral'>
         <Angular size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#DD0031"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/cakephp-ex/tree/devspaces-3-rhel-8'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/cakephp-ex/tree/devspaces-3-rhel-8&storageType=ephemeral'>
         <PHP size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#777BB4"}/>
     </TryTechnology>
 
@@ -84,7 +84,7 @@
         <Scala size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#DC322F"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/c-plus-plus/tree/devspaces-3-rhel-8'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/c-plus-plus/tree/devspaces-3-rhel-8&storageType=ephemeral'>
         <C size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
     </TryTechnology>
 
