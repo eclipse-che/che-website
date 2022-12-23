@@ -6,6 +6,11 @@
 	import Bitbucket from '@icons-pack/svelte-simple-icons/src/components/Bitbucket.svelte';
 	import LinuxContainers from '@icons-pack/svelte-simple-icons/src/components/Linuxcontainers.svelte';
 	import { variables } from '$lib/variables';
+	import { pageTitle, pageDescription, pageUrl } from "$lib/stores";
+
+	$pageTitle = "Features";
+  	$pageDescription = "Start coding in minutes, not days. Modern IDEs features are available in the browser and there is no need to locally install development tools.";
+  	$pageUrl = "/features/";
 
 	let shareDevfileImage;
 	let shareDevfileAltImage;

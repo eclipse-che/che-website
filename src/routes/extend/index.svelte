@@ -5,6 +5,12 @@ import Eclipseide from '@icons-pack/svelte-simple-icons/src/components/Eclipseid
 import Jetbrains from '@icons-pack/svelte-simple-icons/src/components/Jetbrains.svelte';
 import Visualstudiocode from '@icons-pack/svelte-simple-icons/src/components/Visualstudiocode.svelte';
 	import { onMount } from 'svelte';
+	import { pageTitle, pageDescription, pageUrl } from "$lib/stores";
+
+	$pageTitle = "Extend";
+  	$pageDescription = "Code, Build and Debug in your own browser by extending Eclipse Che.";
+  	$pageUrl = "/extend/";
+
 	let cheSampleImage;
 
 

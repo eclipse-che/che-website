@@ -7,6 +7,11 @@
 	import EclipseIDE from '@icons-pack/svelte-simple-icons/src/components/Eclipseide.svelte';
 	import Try from '$lib/try/Try.svelte';
 	import { variables } from '$lib/variables';
+	import { pageTitle, pageDescription, pageUrl } from '$lib/stores';
+
+	$pageTitle = 'Home';
+	$pageDescription = 'Run your favorite IDE on Kubernetes.';
+	$pageUrl = '/';
 
 	let ideImages = [];
 	const darkImages = [`${variables.imagesPath}/ide-code-dark.png`, `${variables.imagesPath}/ide-pycharm-dark.png`, `${variables.imagesPath}/ide-theia-dark.png`]
