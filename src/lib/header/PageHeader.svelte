@@ -3,8 +3,36 @@ import ThemeSelector from "./ThemeSelector.svelte";
 import { page } from '$app/stores';
 import { variables } from '$lib/variables';
 import EclipseCheLogo from "../logo/EclipseCheLogo.svelte";
-
+import { MetaTags } from "svelte-meta-tags";
+import { pageTitle, pageDescription, pageUrl } from "$lib/stores";
 </script>
+
+<MetaTags
+  title={$pageTitle}
+  titleTemplate="%s | Eclipse Che"
+  description={$pageUrl}
+  canonical={$pageUrl}
+  openGraph={{
+    url: `${$pageUrl}`,
+    title: `${$pageTitle} | Eclipse Che`,
+    description: `${$pageDescription}`,
+    images: [
+      {
+        url: "https://www.eclipse.org/che/images-website/ide-code-light.png",
+      },
+    ],
+    site_name: "Eclipse Che",
+  }}
+  twitter={{
+    handle: "@eclipse_che",
+    site: "@eclipse_che",
+    cardType: "summary_large_image",
+    title: `${$pageTitle} | Eclipse Che`,
+    description: `${$pageDescription}`,
+    image: "https://www.eclipse.org/che/images-website/ide-code-light.png",
+    imageAlt: "Eclipse Che",
+  }}
+/>
 
 <header class="text-gray-600 dark:text-gray-400 dark:bg-gray-900 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
