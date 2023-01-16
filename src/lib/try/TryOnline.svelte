@@ -63,7 +63,7 @@
         <Rust size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#000000"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/quarkus-quickstarts/tree/devspaces-3.3-rhel-8&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-incubator/quarkus-api-example&storageType=ephemeral'>
         <Quarkus size={70}  color={$darkModeThemeEnabled ? 'currentColor' : "#00ADD8"}/>
     </TryTechnology>
 
