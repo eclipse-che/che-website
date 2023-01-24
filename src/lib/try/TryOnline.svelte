@@ -68,7 +68,7 @@
     </TryTechnology>
 
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/rest-http-example/tree/devspaces-3.3-rhel-8&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/java-spring-petclinic/tree/devfilev2&storageType=ephemeral'>
         <Spring size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#6DB33F"}/>
     </TryTechnology>
 
