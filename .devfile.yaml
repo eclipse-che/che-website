@@ -6,7 +6,7 @@ attributes:
 components:
   - name: development-tooling
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-bf01a50
+      image: quay.io/devfile/universal-developer-image:latest
       memoryLimit: 4Gi
       cpuLimit: 1400m
       endpoints:
