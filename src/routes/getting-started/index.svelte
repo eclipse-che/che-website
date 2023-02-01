@@ -6,7 +6,7 @@
 
 	$pageTitle = "Getting Started";
   	$pageDescription = "Try Eclipse Che online Or install it on your Kubernetes cluster.";
-  	$pageUrl = "/getting-started/";
+  	$pageUrl = "https://www.eclipse.org/che/getting-started/";
 	
 
 	onMount(() => {

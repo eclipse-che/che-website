@@ -11,7 +11,7 @@
 
 	$pageTitle = 'Home';
 	$pageDescription = 'Run your favorite IDE on Kubernetes.';
-	$pageUrl = '/';
+	$pageUrl = 'https://www.eclipse.org/che/';
 
 	let ideImages = [];
 	const darkImages = [`${variables.imagesPath}/ide-code-dark.png`, `${variables.imagesPath}/ide-pycharm-dark.png`, `${variables.imagesPath}/ide-theia-dark.png`]
