@@ -6,7 +6,7 @@
 
 	$pageTitle = "Cloud";
   	$pageDescription = "Try Eclipse Che online.";
-  	$pageUrl = "/getting-started/cloud/";
+  	$pageUrl = "https://www.eclipse.org/che/getting-started/cloud/";
 	
 	onMount(() => {
 	darkModeThemeEnabled.subscribe(isEnabled => {

@@ -6,7 +6,7 @@
 
 	$pageTitle = "Install";
   	$pageDescription = "Install it on your Kubernetes cluster.";
-  	$pageUrl = "/getting-started/download/";
+  	$pageUrl = "https://www.eclipse.org/che/getting-started/download/";
 	
 	onMount(() => {
 	darkModeThemeEnabled.subscribe(isEnabled => {

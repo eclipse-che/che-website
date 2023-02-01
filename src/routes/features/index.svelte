@@ -10,7 +10,7 @@
 
 	$pageTitle = "Features";
   	$pageDescription = "Start coding in minutes, not days. Modern IDEs features are available in the browser and there is no need to locally install development tools.";
-  	$pageUrl = "/features/";
+  	$pageUrl = "https://www.eclipse.org/che/features/";
 
 	let shareDevfileImage;
 	let shareDevfileAltImage;

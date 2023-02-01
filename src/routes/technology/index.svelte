@@ -6,7 +6,7 @@
 
 	$pageTitle = 'How it Works';
 	$pageDescription = 'A Closer Look at the High Level Architecture of Eclipse Che.';
-	$pageUrl = '/technology/';
+	$pageUrl = 'https://www.eclipse.org/che/technology/';
 
 	let highLevelImage;
 	let devfileToDevWorkspaceImage;

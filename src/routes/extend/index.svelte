@@ -9,7 +9,7 @@ import Visualstudiocode from '@icons-pack/svelte-simple-icons/src/components/Vis
 
 	$pageTitle = "Extend";
   	$pageDescription = "Code, Build and Debug in your own browser by extending Eclipse Che.";
-  	$pageUrl = "/extend/";
+  	$pageUrl = "https://www.eclipse.org/che/extend/";
 
 	let cheSampleImage;
 
