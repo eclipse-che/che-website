@@ -7,12 +7,12 @@ https://www.eclipse.org/che website mirror
 
 Use the factory url https://workspaces.openshift.com#https://github.com/eclipse/che-website
 
-This factory will start che and clone the repo che-website.
+This factory will start Che and clone the repo che-website.
 
-On the right side `My workspace` view, you can start to preview the website after installing all dependencies (launch task 1 and then task 2)
+You can start to preview the website after installing all dependencies (launch task 1) and start development mode (launch task 2).
 
-### Commi
-You can commit with Theia git view or the terminal (with the git container). Create a dedicated branch and a fork if you are not commiter.
+### Commit
+You can commit with the Git view or the terminal (with the git container). Create a dedicated branch and a fork if you are not committer.
 In any case, you will need to create a Pull Request.
 
 Note that before your contribution can be accepted by the project, you need to electronically sign the [Eclipse Contributor Agreement](https://github.com/eclipse/che/wiki/Eclipse-Contributor-Agreement) (ECA). 
