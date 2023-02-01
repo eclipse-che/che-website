@@ -53,7 +53,7 @@ import { variables } from '$lib/variables';
   </div>
   <div class="bg-gray-100 dark:bg-gray-800 dark:text-gray-400">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-gray-500 dark:text-gray-400 text-sm text-center sm:text-left">© 2022 Eclipse Che</p>
+      <p class="text-gray-500 dark:text-gray-400 text-sm text-center sm:text-left">© 2023 Eclipse Che</p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
         <a target="_blank" title="github" rel="noopener noreferrer" href="https://github.com/eclipse/che" class="w-8 h-5 text-gray-500 dark:text-gray-400"><Fa icon={faGithub} /></a>
         <a target="_blank" title="twitter" rel="noopener noreferrer" href="https://twitter.com/eclipse_che" class="w-8 h-5 text-gray-500 dark:text-gray-400"><Fa icon={faTwitter} /></a>
