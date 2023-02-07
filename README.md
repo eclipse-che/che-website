@@ -1,6 +1,6 @@
 [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://workspaces.openshift.com#https://github.com/eclipse-che/che-website)
 
-# che-website
+# Eclipse Che Website
 https://www.eclipse.org/che website mirror
 
 ## Contribute with the devfile
