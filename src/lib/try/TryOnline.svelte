@@ -74,7 +74,7 @@
         <Angular size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#DD0031"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/cakephp-ex/tree/devspaces-3.4-rhel-8&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/php-hello-world/tree/devspaces-3.4-rhel-8&storageType=ephemeral'>
         <PHP size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#777BB4"}/>
     </TryTechnology>
 
