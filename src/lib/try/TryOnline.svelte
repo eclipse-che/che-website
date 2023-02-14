@@ -38,7 +38,7 @@
   <div class="absolute inset-x-0 top-0 items-center justify-center hidden overflow-hidden md:flex md:inset-y-0">
   </div>
   <div class="relative grid gap-7 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-300 ">
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/vertx-http-example/tree/devspaces-3.4-rhel-8&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/java-guestbook&storageType=ephemeral'>
         <Java size={70} color={$darkModeThemeEnabled ? 'currentColor' : '#007396'}  />
     </TryTechnology>
 
