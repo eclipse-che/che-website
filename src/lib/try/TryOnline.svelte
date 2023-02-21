@@ -42,11 +42,11 @@
         <Java size={70} color={$darkModeThemeEnabled ? 'currentColor' : '#007396'}  />
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/golang-health-check/tree/devspaces-3.4-rhel-8&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/golang-health-check/tree/latest&storageType=ephemeral'>
         <Go size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#00ADD8"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/python-hello-world/tree/devspaces-3.4-rhel-8&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/python-hello-world/tree/latest&storageType=ephemeral'>
         <Python size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#3776AB"}/>
     </TryTechnology>
 
@@ -54,7 +54,7 @@
         <ReactJs size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#61DAFB"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/dotnet-web-simple/tree/devspaces-3.4-rhel-8&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/dotnet-web-simple/tree/latest&storageType=ephemeral'>
         <DotNet size={70}  color={$darkModeThemeEnabled ? 'currentColor' : "#512BD4"}/>
     </TryTechnology>
 
@@ -74,7 +74,7 @@
         <Angular size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#DD0031"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/php-hello-world/tree/devspaces-3.4-rhel-8&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/php-hello-world/tree/latest&storageType=ephemeral'>
         <PHP size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#777BB4"}/>
     </TryTechnology>
 
@@ -82,7 +82,7 @@
         <Scala size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#DC322F"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/c-plus-plus/tree/devspaces-3.4-rhel-8&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/c-plus-plus/tree/latest&storageType=ephemeral'>
         <C size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
     </TryTechnology>
 
