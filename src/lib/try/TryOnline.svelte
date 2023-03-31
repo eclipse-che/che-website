@@ -38,51 +38,51 @@
   <div class="absolute inset-x-0 top-0 items-center justify-center hidden overflow-hidden md:flex md:inset-y-0">
   </div>
   <div class="relative grid gap-7 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-300 ">
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/java-guestbook&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/che-samples/java-guestbook&storageType=ephemeral'>
         <Java size={70} color={$darkModeThemeEnabled ? 'currentColor' : '#007396'}  />
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/golang-health-check/tree/latest&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/devspaces-samples/golang-health-check/tree/latest&storageType=ephemeral'>
         <Go size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#00ADD8"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/python-hello-world/tree/latest&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/devspaces-samples/python-hello-world/tree/latest&storageType=ephemeral'>
         <Python size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#3776AB"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/nodejs-react-redux&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/che-samples/nodejs-react-redux&storageType=ephemeral'>
         <ReactJs size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#61DAFB"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/dotnet-web-simple/tree/latest&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/devspaces-samples/dotnet-web-simple/tree/latest&storageType=ephemeral'>
         <DotNet size={70}  color={$darkModeThemeEnabled ? 'currentColor' : "#512BD4"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/helloworld-rust&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/che-samples/helloworld-rust&storageType=ephemeral'>
         <Rust size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#000000"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-incubator/quarkus-api-example&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/che-incubator/quarkus-api-example&storageType=ephemeral'>
         <Quarkus size={70}  color={$darkModeThemeEnabled ? 'currentColor' : "#00ADD8"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/java-spring-petclinic&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/che-samples/java-spring-petclinic&storageType=ephemeral'>
         <Spring size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#6DB33F"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com/#https://github.com/che-samples/nodejs-angular&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/che-samples/nodejs-angular&storageType=ephemeral'>
         <Angular size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#DD0031"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/php-hello-world/tree/latest&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/devspaces-samples/php-hello-world/tree/latest&storageType=ephemeral'>
         <PHP size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#777BB4"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/che-samples/scala-sbt&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/che-samples/scala-sbt&storageType=ephemeral'>
         <Scala size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#DC322F"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/devspaces-samples/c-plus-plus/tree/latest&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/devspaces-samples/c-plus-plus/tree/latest&storageType=ephemeral'>
         <C size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
     </TryTechnology>
 
