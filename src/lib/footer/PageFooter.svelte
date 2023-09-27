@@ -35,7 +35,7 @@ import { variables } from '$lib/variables';
         <FooterCategory name={"Community"} />
         <nav class="list-none mb-10">
           <FooterCategoryLink name="Get involved" url="https://github.com/eclipse/che/blob/master/CONTRIBUTING.md" />
-          <FooterCategoryLink name="Chat" url="https://mattermost.eclipse.org/eclipse/channels/eclipse-che" />
+          <FooterCategoryLink name="Chat" url="https://communityinviter.com/apps/ecd-tools/join-the-community" />
           <FooterCategoryLink name="Mailing List" url="https://accounts.eclipse.org/mailing-list/che-dev" />
         </nav>
       </div>
