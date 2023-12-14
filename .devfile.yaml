@@ -1,8 +1,6 @@
-schemaVersion: 2.1.0
+schemaVersion: 2.2.0
 metadata:
   name: eclipse-che-website
-attributes:
-  controller.devfile.io/storage-type: ephemeral
 components:
   - name: development-tooling
     container:
@@ -13,8 +11,7 @@ components:
         - name: eclipse-che-website
           targetPort: 3000
           exposure: public
-          secure: false
-          protocol: http
+          protocol: https
 commands:
   - id: install
     exec:

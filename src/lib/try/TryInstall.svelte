@@ -42,39 +42,13 @@ onMount(() => {
 </div>
 </div>
 
-  <div class="relative grid gap-5 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 dark:text-gray-300">
-	<a href='https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che-on-minikube/' target='blank' >
+  <div class="relative grid gap-5 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 dark:text-gray-300">
+	<a href='https://eclipse.dev/che/docs/stable/administration-guide/installing-che-on-minikube/' target='blank' >
 		<div title="Minikube" class="w-100 h-40 p-5 flex flex-col text-center transition duration-300 bg-transparent dark:shadow-dark transform rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl items-center justify-center align-middle">
 			<MinikubeLogo />
 		</div>
 	</a>
-	<a href='https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che-on-kind/' target='blank' >
-		<div title="Kind" class="w-100 h-40 p-5 flex flex-col text-center transition duration-300 bg-transparent dark:shadow-dark transform rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl items-center justify-center align-middle">
-			<KindLogo />
-		</div>
-	</a>
-	<a href='https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che-on-docker-desktop/' target='blank' >
-		<div title="Docker Desktop" class="w-100 h-40 flex flex-col p-5 text-center transition duration-300 dark:shadow-dark transform rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl items-center justify-center align-middle">
-			<!-- svelte-ignore a11y-missing-attribute -->
-			<img class="h-fit w-fit" src='{dockerImage}' />
-		</div>
-	</a>
-	<a href='https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che-on-aws/' target='blank' >
-		<div title="AWS" class="w-100 h-40 flex flex-col p-5 text-center transition duration-300 dark:shadow-dark transform rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl items-center justify-center align-middle">
-			<AwsLogo />
-		</div>
-	</a>
-	<a href='https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che-on-google-cloud-platform/' target='blank' >
-		<div title="Google Cloud" class="w-100 h-40 flex flex-col p-5 text-center transition duration-300 dark:shadow-dark transform rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl items-center justify-center align-middle">
-			<GoogleCloudLogo />
-		</div>
-	</a>
-	<a href='https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che-on-microsoft-azure/' target='blank' >
-		<div title="Azure" class="w-100 h-40 flex flex-col p-5 text-center transition duration-300 dark:shadow-dark transform rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl items-center justify-center align-middle">
-			<AzureLogo />
-		</div>
-	</a>
-	<a href='https://www.eclipse.org/che/docs/che-7/installation-guide/installing-che-on-openshift-4-using-operatorhub/' target='blank' >
+	<a href='https://eclipse.dev/che/docs/stable/administration-guide/installing-che-on-openshift-using-cli/' target='blank' >
 		<div title="OpenShift" class="w-100 h-40 flex flex-col p-5 text-center transition duration-300 dark:shadow-dark transform rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl items-center justify-center align-middle">
 			<OpenShiftLogo />
 		</div>
