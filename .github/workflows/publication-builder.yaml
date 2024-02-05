@@ -1,0 +1,43 @@
+name: Che website publication builder
+
+# Define when the workflow runs.
+on:
+  # Pass secrets to make it a reusable workflow (that che-docs calls).
+  workflow_call:
+    secrets:
+      CHE_BOT_GITHUB_TOKEN:
+        required: true
+  # Run on push on the main branch.
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Publication builder
+    runs-on: ubuntu-20.04
+    container: node:16.14.0-bullseye
+    steps:
+      - name: Checkout the website repository
+        uses: actions/checkout@v4
+      - name: Checkout the docs repository
+        uses: actions/checkout@v4
+        with:
+          repository: eclipse-che/che-docs
+          ref: publication            # Fetch the publication branch.
+          path: public                # Fetch to the public directory.
+          sparse-checkout: .          # Fetch only the root files.
+      - name: Generate Che website
+        # Install dependencies. Build website. Copy build results from build/che to public/ directory.
+        run: |
+             yarn
+             yarn build
+             cp -r build/che/* public/
+      - name: Commit to publication branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          commit_message: "Publication at ${{ steps.get-date.outputs.timestamp }}"
+          force_orphan: true          # Keep only the latest commit in the branch
+          github_token: ${{ secrets.CHE_BOT_GITHUB_TOKEN }}
+          publish_branch: publication # Publish to the publication branch
+          publish_dir: public         # Publish the public directory
