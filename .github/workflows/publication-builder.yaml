@@ -20,6 +20,16 @@ jobs:
     steps:
       - name: Checkout the website repository
         uses: actions/checkout@v4
+        with:
+          repository: eclipse-che/che-website
+          ref: main                   # Fetch the main branch.
+          path: che-website           # Fetch to the che-website directory.
+          sparse-checkout: .          # Fetch only the root files.
+      - name: Generate Che website
+        # Install dependencies. Build website. Output is in build/che
+        run: |
+             yarn
+             yarn build
       - name: Checkout the docs repository
         uses: actions/checkout@v4
         with:
@@ -27,12 +37,9 @@ jobs:
           ref: publication            # Fetch the publication branch.
           path: public                # Fetch to the public directory.
           sparse-checkout: .          # Fetch only the root files.
-      - name: Generate Che website
-        # Install dependencies. Build website. Copy build results from build/che to public/ directory.
-        run: |
-             yarn
-             yarn build
-             cp -r build/che/* public/
+      - name: Copy Che website
+        # Copy build results from build/che to public/ directory.
+        run: cp -rv ../che-website/build/che/* public/
       - name: Commit to publication branch
         uses: peaceiris/actions-gh-pages@v3
         with:
