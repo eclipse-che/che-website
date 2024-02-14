@@ -18,7 +18,7 @@
 		"@icons-pack/svelte-simple-icons": "https://github.com/icons-pack/svelte-simple-icons.git#v2.2.0",
 		"@sveltejs/adapter-node": "^1.0.0-next.68",
 		"@sveltejs/adapter-static": "^1.0.0-next.28",
-		"@sveltejs/kit": "^1.0.0-next.278",
+		"@sveltejs/kit": "^1.15.2",
 		"@typescript-eslint/eslint-plugin": "^4.31.1",
 		"@typescript-eslint/parser": "^4.31.1",
 		"autoprefixer": "^10.4.2",
