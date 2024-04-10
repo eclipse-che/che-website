@@ -69,7 +69,7 @@ spec:
         dir('www') {
             sshagent(['git.eclipse.org-bot-ssh']) {
                 sh '''
-                    GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no" git clone ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
+                    GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no" git clone ssh://git@github.com:eclipse-che/che-website.git .
                     git checkout master
                     echo "end of checkout"
                     echo $(pwd)
