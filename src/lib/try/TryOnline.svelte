@@ -8,7 +8,6 @@
 	import Rust from '@icons-pack/svelte-simple-icons/src/components/Rust.svelte';
 	import Quarkus from '@icons-pack/svelte-simple-icons/src/components/Quarkus.svelte';
 	import Spring from '@icons-pack/svelte-simple-icons/src/components/Spring.svelte';
-	import Angular from '@icons-pack/svelte-simple-icons/src/components/Angular.svelte';
 	import PHP from '@icons-pack/svelte-simple-icons/src/components/Php.svelte';
 	import Scala from '@icons-pack/svelte-simple-icons/src/components/Scala.svelte';
 	import C from '@icons-pack/svelte-simple-icons/src/components/C.svelte';
@@ -70,8 +69,8 @@
         <Spring size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#6DB33F"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/che-samples/nodejs-angular&storageType=ephemeral'>
-        <Angular size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#DD0031"}/>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/redhat-developer-demos/cde-ollama-continue'>
+        <img src="https://ollama.com/public/ollama.png" alt="Ollama" width="50" height="50  ">
     </TryTechnology>
 
     <TryTechnology hrefLink='https://workspaces.openshift.com/f?url=https://github.com/devspaces-samples/php-hello-world/tree/latest&storageType=ephemeral'>
