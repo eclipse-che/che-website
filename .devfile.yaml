@@ -1,6 +1,6 @@
-schemaVersion: 2.2.0
+schemaVersion: 2.2.2
 metadata:
-  name: eclipse-che-website
+  generateName: che-website
 components:
   - name: development-tooling
     container:
@@ -8,7 +8,7 @@ components:
       memoryLimit: 4Gi
       cpuLimit: 1400m
       endpoints:
-        - name: eclipse-che-website
+        - name: che-website
           targetPort: 3000
           exposure: public
           protocol: https
