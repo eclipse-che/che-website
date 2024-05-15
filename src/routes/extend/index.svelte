@@ -58,7 +58,7 @@ import Visualstudiocode from '@icons-pack/svelte-simple-icons/src/components/Vis
 				<br class="hidden lg:inline-block">
 			</h1>
 			<p class="mb-8 leading-relaxed">
-				Eclipse Che provisions development environments, including IDEs. Any IDE that can run in a container and can be accessed through a Web UI will work with Eclipse Che. The IDEs that are pre-packaged with Che are Open Source VisualStudio Code, Eclipse Theia and JetBrains IDEs using JetBrains Projector.
+				Eclipse Che provisions development environments, including IDEs. Any IDE that can run in a container and can be accessed through a Web UI will work with Eclipse Che. The IDEs that are pre-packaged with Che are Open Source VisualStudio Code and JetBrains IDEs using JetBrains Projector.
 			</p>
 		</div>
 		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 flex flex:col gap-10">
