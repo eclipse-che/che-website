@@ -4,7 +4,6 @@
 	import { onMount } from 'svelte';
 	import VisualStudioCode from '@icons-pack/svelte-simple-icons/src/components/Visualstudiocode.svelte';
 	import Jetbrains from '@icons-pack/svelte-simple-icons/src/components/Jetbrains.svelte';
-	import EclipseIDE from '@icons-pack/svelte-simple-icons/src/components/Eclipseide.svelte';
 	import Try from '$lib/try/Try.svelte';
 	import { variables } from '$lib/variables';
 	import { pageTitle, pageDescription, pageUrl } from '$lib/stores';
@@ -14,8 +13,8 @@
 	$pageUrl = 'https://www.eclipse.org/che/';
 
 	let ideImages = [];
-	const darkImages = [`${variables.imagesPath}/ide-code-dark.png`, `${variables.imagesPath}/ide-pycharm-dark.png`, `${variables.imagesPath}/ide-theia-dark.png`]
-	const lightImages = [`${variables.imagesPath}/ide-code-light.png`, `${variables.imagesPath}/ide-pycharm-light.png`, `${variables.imagesPath}/ide-theia-light.png`]
+	const darkImages = [`${variables.imagesPath}/ide-code-dark.png`, `${variables.imagesPath}/ide-pycharm-dark.png`]
+	const lightImages = [`${variables.imagesPath}/ide-code-light.png`, `${variables.imagesPath}/ide-pycharm-light.png`]
 
 	let devfileInGithubImage;
 	let devfileImage;
@@ -242,21 +241,6 @@
 			</div>
 			<div class="flex-grow">
 			  <p class="leading-relaxed text-base">The IDEs for professional developers run with JetBrains Projector and deployed on Kubernetes.</p>
-
-			</div>
-		  </div>
-		</div>
-		<div class="p-4 md:w-1/3">
-		  <div class="flex rounded-lg h-full bg-gray-100 dark:bg-gray-800 bg-opacity-60 p-8 flex-col">
-			<div class="flex items-center mb-3">
-			  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-gray-900 dark:text-gray-300 flex-shrink-0">
-				<EclipseIDE />
-			  </div>
-			  <h2 class="text-gray-900 dark:text-white text-lg title-font font-medium">Eclipse Theia</h2>
-			</div>
-			<div class="flex-grow">
-			  <p class="leading-relaxed text-base">Built on top of the Theia IDE platform developed under the Eclipse Foundation.</p>
-
 			</div>
 		  </div>
 		</div>

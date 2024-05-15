@@ -82,7 +82,7 @@
 		<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 dark:text-white">IDEs are packaged and distributed as
 		  <br class="hidden lg:inline-block">Linux Containers
 		</h1>
-		<p class="mb-8 leading-relaxed">IDEs run remotely, in a Kubernetes Pod, and are accessible from a browser. Currently IDEs packaged and included with Eclipse Che are VS Code, JetBrains and Eclipse Theia.</p>
+		<p class="mb-8 leading-relaxed">IDEs run remotely, in a Kubernetes Pod, and are accessible from a browser. Currently IDEs packaged and included with Eclipse Che are VS Code and JetBrains.</p>
 	  </div>
 	  <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 flex flex-col flex-grow items-center justify-center align-middle gap-5 ">
 		<LinuxContainers size={200} />
