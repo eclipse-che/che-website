@@ -217,7 +217,7 @@
 			Swap the IDE as you would change your sunglasses
 		  </p>
 	  </div>
-	  <div class="flex flex-wrap -m-4">
+	  <div class="flex flex-wrap -m-4 justify-center">
 		<div class="p-4 md:w-1/3">
 		  <div class="flex rounded-lg h-full bg-gray-100 dark:bg-gray-800 bg-opacity-60 p-8 flex-col">
 			<div class="flex items-center mb-3">
