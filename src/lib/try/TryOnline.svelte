@@ -57,7 +57,7 @@
         <DotNet size={70}  color={$darkModeThemeEnabled ? 'currentColor' : "#512BD4"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/nodejs-basic&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/python-django&storageType=ephemeral'>
         <Django size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#000000"}/>
     </TryTechnology>
 
