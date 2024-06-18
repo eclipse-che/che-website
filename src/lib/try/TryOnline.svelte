@@ -69,7 +69,7 @@
         <Spring size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#6DB33F"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://github.com/redhat-developer-demos/cde-ollama-continue'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/ollama/1.0.0&storageType=ephemeral'>
         <img src="https://ollama.com/public/ollama.png" alt="Ollama" width="50" height="50  ">
     </TryTechnology>
 
