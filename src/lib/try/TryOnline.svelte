@@ -70,7 +70,7 @@
     </TryTechnology>
 
     <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/ollama/1.0.0&storageType=ephemeral'>
-        <img src="https://ollama.com/public/ollama.png" alt="Ollama" width="50" height="50  ">
+        <img src="https://ollama.com/public/ollama.png" alt="Ollama" width="50" height="50">
     </TryTechnology>
 
     <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/nodejs-angular/2.2.1&storageType=ephemeral'>
@@ -85,6 +85,9 @@
         <Laravel size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
     </TryTechnology>
 
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/jhipster-online/2.33.0&storageType=ephemeral'>
+        <img src="https://raw.githubusercontent.com/jhipster/jhipster-artwork/refs/heads/main/logos/JHipster%20bowtie%20-%20square.png" alt="JHipster" width="50" height="50">
+    </TryTechnology>
 </div>
 </div>
 </div>
