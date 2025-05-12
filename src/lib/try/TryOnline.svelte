@@ -89,8 +89,8 @@
 
     <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/nodejs-mongodb/1.0.0&storageType=ephemeral'>
         <div style="display: flex; align-items: center; gap: 4px;">
-            <NodeJS size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
-            <MongoDB size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
+            <MongoDB size={60} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
+            <NodeJS size={60} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
         </div>
     </TryTechnology>
 
