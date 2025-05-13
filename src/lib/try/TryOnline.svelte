@@ -11,6 +11,8 @@
 	import Angular from '@icons-pack/svelte-simple-icons/src/components/Angular.svelte';
 	import Svelte from '@icons-pack/svelte-simple-icons/src/components/Svelte.svelte';
 	import Laravel from '@icons-pack/svelte-simple-icons/src/components/Laravel.svelte';
+    import MongoDB from '@icons-pack/svelte-simple-icons/src/components/Mongodb.svelte';
+    import NodeJS from  '@icons-pack/svelte-simple-icons/src/components/NodeDotJs.svelte';
     import TryTechnology from '$lib/try/TryTechnology.svelte';
 
 	
@@ -83,6 +85,13 @@
 
     <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/php-laravel/2.0.1&storageType=ephemeral'>
         <Laravel size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
+    </TryTechnology>
+
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/nodejs-mongodb/1.0.0&storageType=ephemeral'>
+        <div style="display: flex; align-items: center; gap: 4px;">
+            <MongoDB size={60} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
+            <NodeJS size={60} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
+        </div>
     </TryTechnology>
 
 </div>
