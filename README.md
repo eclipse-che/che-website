@@ -25,7 +25,7 @@ $ git commit -s -m "Auto share multiple projects in single job"
 
 
 ### Updating the website
-Once your PR is merged, we have jobs at https://ci.eclipse.org/che/job/che-website-pipeline/ that will update the site. It may take few hours.
+Once your PR is merged, the pipeline in [che-website-publish](https://github.com/eclipse-che/che-website-publish) project will run to publish your changes. It may take some time
 
 
 ### Che documentation ?
