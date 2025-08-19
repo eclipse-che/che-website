@@ -72,7 +72,7 @@
     </TryTechnology>
 
     <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/ollama/1.0.0&storageType=ephemeral'>
-        <img src="https://ollama.com/public/ollama.png" alt="Ollama" width="50" height="50  ">
+        <img src="https://ollama.com/public/ollama.png" alt="Ollama" width="50" height="50">
     </TryTechnology>
 
     <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/nodejs-angular/2.2.1&storageType=ephemeral'>
@@ -92,6 +92,10 @@
             <MongoDB size={60} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
             <NodeJS size={60} color={$darkModeThemeEnabled ? 'currentColor' : "#A8B9CC"}/>
         </div>
+    </TryTechnology>
+
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/jhipster-online/2.33.1&storageType=ephemeral'>
+        <img src="https://raw.githubusercontent.com/jhipster/jhipster-artwork/refs/heads/main/logos/JHipster%20bowtie%20-%20square.png" alt="JHipster" width="50" height="50">
     </TryTechnology>
 
 </div>
