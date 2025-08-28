@@ -55,7 +55,7 @@
         <ReactJs size={70} color={$darkModeThemeEnabled ? 'currentColor' : "#61DAFB"}/>
     </TryTechnology>
 
-    <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/dotnet60/1.0.3&storageType=ephemeral'>
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/dotnet80/1.0.0&storageType=ephemeral'>
         <DotNet size={70}  color={$darkModeThemeEnabled ? 'currentColor' : "#512BD4"}/>
     </TryTechnology>
 
