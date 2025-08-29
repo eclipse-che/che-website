@@ -1,6 +1,8 @@
-schemaVersion: 2.2.2
+schemaVersion: 2.3.0
 metadata:
   generateName: che-website
+attributes:
+  controller.devfile.io/storage-type: ephemeral
 components:
   - name: development-tooling
     container:
