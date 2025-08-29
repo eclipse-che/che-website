@@ -4,6 +4,7 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "github.vscode-pull-request-github",
+    "svelte.svelte-vscode",
     "RooVeterinaryInc.roo-cline"
   ]
 }
