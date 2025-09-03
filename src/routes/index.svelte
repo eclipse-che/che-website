@@ -7,11 +7,14 @@
 	import Try from '$lib/try/Try.svelte';
 	import { variables } from '$lib/variables';
 	import { pageTitle, pageDescription, pageUrl } from '$lib/stores';
+	import Fa from 'svelte-fa';
+	import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 	$pageTitle = 'Home';
 	$pageDescription = 'Run your favorite IDE on Kubernetes.';
 	$pageUrl = 'https://www.eclipse.org/che/';
 
+	let stars: number;
 	let ideImages = [];
 	const darkImages = [`${variables.imagesPath}/ide-code-dark.png`, `${variables.imagesPath}/ide-pycharm-dark.png`]
 	const lightImages = [`${variables.imagesPath}/ide-code-light.png`, `${variables.imagesPath}/ide-pycharm-light.png`]
@@ -23,25 +26,29 @@
 	let ideImage;
 	const timeoutMs = 6000;
 
-	onMount(() => {
-	darkModeThemeEnabled.subscribe(isEnabled => {
-		if (isEnabled) {
-			ideImages = darkImages;
-			devfileInGithubImage = `${variables.imagesPath}/devfile-in-github-dark.png`;
-			devfileImage = `${variables.imagesPath}/devfile-content-dark.jpeg`;
-		} else {
-			ideImages = lightImages;
-			devfileInGithubImage = `${variables.imagesPath}/devfile-in-github-light.png`;
-			devfileImage = `${variables.imagesPath}/devfile-content-light.jpeg`;
+	onMount(async () => {
+		const res = await fetch('https://api.github.com/repos/eclipse/che');
+		const data = await res.json();
+		stars = data.stargazers_count;
+		
+		darkModeThemeEnabled.subscribe(isEnabled => {
+			if (isEnabled) {
+				ideImages = darkImages;
+				devfileInGithubImage = `${variables.imagesPath}/devfile-in-github-dark.png`;
+				devfileImage = `${variables.imagesPath}/devfile-content-dark.jpeg`;
+			} else {
+				ideImages = lightImages;
+				devfileInGithubImage = `${variables.imagesPath}/devfile-in-github-light.png`;
+				devfileImage = `${variables.imagesPath}/devfile-content-light.jpeg`;
+			}
+			ideImage = ideImages[currentIndex];
+			setTimeout(nextImage, timeoutMs);
+		});
+		function nextImage() {
+			currentIndex = (currentIndex + 1) % ideImages.length;
+			ideImage = ideImages[currentIndex];
+			setTimeout(nextImage, timeoutMs);
 		}
-		ideImage = ideImages[currentIndex];
-		setTimeout(nextImage, timeoutMs);
-	});
-	function nextImage() {
-		currentIndex = (currentIndex + 1) % ideImages.length;
-		ideImage = ideImages[currentIndex];
-		setTimeout(nextImage, timeoutMs);
-	}
 
 	});
 </script>
@@ -50,8 +57,14 @@
 	<div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
 	  <div class="text-center lg:w-2/3 w-full">
 		<h1 class="title-font sm:text-4xl text-3xl lg:text-6xl mb-4 font-medium text-gray-900 dark:text-white">Run your favorite IDE on Kubernetes</h1>
-		<div class="flex justify-center">
-		<iframe src="https://ghbtns.com/github-btn.html?user=eclipse&repo=che&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+		<div class="flex justify-center" style="height: 28px;">
+			<a href="https://github.com/eclipse/che" target="_blank" class="flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-gray-800 rounded-l-md hover:bg-gray-700">
+				<Fa icon={faGithub} />
+				<span class="ml-2">Star</span>
+			</a>
+			<a href="https://github.com/eclipse/che/stargazers" target="_blank" class="flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-700 bg-gray-200 rounded-r-md hover:bg-gray-300">
+				<span>{stars}</span>
+			</a>
 		</div>
 		<p class="mb-3 py-3 leading-relaxed">Create a workspace from a Git repository or sample</p>
 		<div class="flex justify-center mb-8">
