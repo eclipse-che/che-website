@@ -1636,6 +1636,11 @@ svelte-hmr@^0.14.9:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.9.tgz#35f277efc789e1a6230185717347cddb2f8e9833"
   integrity sha512-bKE9+4qb4sAnA+TKHiYurUl970rjA0XmlP9TEP7K/ncyWz3m81kA4HOgmlZK/7irGK7gzZlaPDI3cmf8fp/+tg==
 
+svelte-material-icons@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/svelte-material-icons/-/svelte-material-icons-3.0.5.tgz#37bed05ceadd981b0da8630bd43b6d7cd6345376"
+  integrity sha512-UbhAa+Btd5y6e6DMljVccP+cbJ8lvesltMippiCOvfIUtYe2TsQqM+P6osfrVsZHV47b1tY6AmqCuSpMKnwMOQ==
+
 svelte-meta-tags@^2.6.4:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.6.4.tgz#ead86a01a4f645a7b7ad7b7f52248fb58564fd64"

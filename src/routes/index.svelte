@@ -2,8 +2,8 @@
 	import Rss from '$lib/rss/Rss.svelte';
 	import { darkModeThemeEnabled } from '$lib/theme/colorTheme';
 	import { onMount } from 'svelte';
-	import VisualStudioCode from '@icons-pack/svelte-simple-icons/src/components/Visualstudiocode.svelte';
-	import Jetbrains from '@icons-pack/svelte-simple-icons/src/components/Jetbrains.svelte';
+	import VisualStudioCode from '$lib/icons/VisualStudioCode.svelte';
+	import Jetbrains from '$lib/icons/Jetbrains.svelte';
 	import Try from '$lib/try/Try.svelte';
 	import { variables } from '$lib/variables';
 	import { pageTitle, pageDescription, pageUrl } from '$lib/stores';
@@ -12,6 +12,7 @@
 	$pageDescription = 'Run your favorite IDE on Kubernetes.';
 	$pageUrl = 'https://www.eclipse.org/che/';
 
+	let stars = '...';
 	let ideImages = [];
 	const darkImages = [`${variables.imagesPath}/ide-code-dark.png`, `${variables.imagesPath}/ide-pycharm-dark.png`]
 	const lightImages = [`${variables.imagesPath}/ide-code-light.png`, `${variables.imagesPath}/ide-pycharm-light.png`]
@@ -23,7 +24,12 @@
 	let ideImage;
 	const timeoutMs = 6000;
 
-	onMount(() => {
+	onMount(async () => {
+	const res = await fetch('https://api.github.com/repos/eclipse/che');
+	if (res.ok) {
+		const data = await res.json();
+		stars = data.stargazers_count;
+	}
 	darkModeThemeEnabled.subscribe(isEnabled => {
 		if (isEnabled) {
 			ideImages = darkImages;
@@ -51,7 +57,12 @@
 	  <div class="text-center lg:w-2/3 w-full">
 		<h1 class="title-font sm:text-4xl text-3xl lg:text-6xl mb-4 font-medium text-gray-900 dark:text-white">Run your favorite IDE on Kubernetes</h1>
 		<div class="flex justify-center">
-		<iframe src="https://ghbtns.com/github-btn.html?user=eclipse&repo=che&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+		<a href="https://github.com/eclipse/che" target="_blank" class="flex items-center space-x-2 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 16 16" fill="currentColor">
+				<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+			</svg>
+			<span>{stars} stars</span>
+		</a>
 		</div>
 		<p class="mb-3 py-3 leading-relaxed">Create a workspace from a Git repository or sample</p>
 		<div class="flex justify-center mb-8">
