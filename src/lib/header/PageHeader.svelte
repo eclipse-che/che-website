@@ -1,6 +1,6 @@
 <script>
 import ThemeSelector from "./ThemeSelector.svelte";
-import { page } from '$app/stores';
+ import { page } from '$app/stores';
 import { variables } from '$lib/variables';
 import EclipseCheLogo from "../logo/EclipseCheLogo.svelte";
 import { MetaTags } from "svelte-meta-tags";
@@ -48,8 +48,8 @@ import { pageTitle, pageDescription, pageUrl } from "$lib/stores";
         <a href="https://che.eclipseprojects.io/" target="_blank" class="mr-5 hover:text-gray-900 dark:text-white">Blog</a>
       </nav>
       <div class="pr-5 invisible md:visible">
-      <ThemeSelector />
-    </div>
+       <ThemeSelector />
+     </div>
 
     {#if $page.url.pathname !== `${variables.basePath}/` && !$page.url.pathname.includes('/getting-started/')}
     <a class="inline-flex items-center bg-che-yellow dark:text-white border-0 py-1 px-3 focus:outline-none hover:bg-che-yellow-dark rounded text-base mt-4 md:mt-0 invisible lg:visible" href="{variables.basePath}/#StartNow">Start Now

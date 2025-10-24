@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Rss from '$lib/rss/Rss.svelte';
+	import GithubStars from '$lib/header/GithubStars.svelte';
 	import { darkModeThemeEnabled } from '$lib/theme/colorTheme';
 	import { onMount } from 'svelte';
 	import VisualStudioCode from '@icons-pack/svelte-simple-icons/src/components/Visualstudiocode.svelte';
@@ -50,10 +51,10 @@
 	<div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
 	  <div class="text-center lg:w-2/3 w-full">
 		<h1 class="title-font sm:text-4xl text-3xl lg:text-6xl mb-4 font-medium text-gray-900 dark:text-white">Run your favorite IDE on Kubernetes</h1>
-		<div class="flex justify-center">
-		<iframe src="https://ghbtns.com/github-btn.html?user=eclipse&repo=che&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-		</div>
 		<p class="mb-3 py-3 leading-relaxed">Create a workspace from a Git repository or sample</p>
+		<div class="flex justify-center">
+			<GithubStars />
+		</div>
 		<div class="flex justify-center mb-8">
 			<a class="inline-flex text-white bg-che-yellow border-0 py-2 px-6 focus:outline-none hover:bg-che-yellow-dark rounded text-lg" href="#StartNow">Start Now
 			  </a>
