@@ -11,5 +11,6 @@ const imagesPath = `${basePath}/images-website`;
 export const variables = {
     isDevelopment: dev,
     basePath,
-    imagesPath
+    imagesPath,
+    githubRepo: 'eclipse/che'
 };

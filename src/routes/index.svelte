@@ -12,6 +12,12 @@
 	$pageDescription = 'Run your favorite IDE on Kubernetes.';
 	$pageUrl = 'https://www.eclipse.org/che/';
 
+	let githubButtonSrc;
+	if (variables.githubRepo) {
+		const [user, repo] = variables.githubRepo.split('/');
+		githubButtonSrc = `https://ghbtns.com/github-btn.html?user=${user}&repo=${repo}&type=star&count=true`;
+	}
+
 	let ideImages = [];
 	const darkImages = [`${variables.imagesPath}/ide-code-dark.png`, `${variables.imagesPath}/ide-pycharm-dark.png`]
 	const lightImages = [`${variables.imagesPath}/ide-code-light.png`, `${variables.imagesPath}/ide-pycharm-light.png`]
@@ -51,7 +57,11 @@
 	  <div class="text-center lg:w-2/3 w-full">
 		<h1 class="title-font sm:text-4xl text-3xl lg:text-6xl mb-4 font-medium text-gray-900 dark:text-white">Run your favorite IDE on Kubernetes</h1>
 		<div class="flex justify-center">
-		<iframe src="https://ghbtns.com/github-btn.html?user=eclipse&repo=che&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+			<div class="flex justify-center">
+		<a href="https://github.com/{variables.githubRepo}" target="_blank" rel="noopener noreferrer">
+			<img src="https://img.shields.io/github/stars/{variables.githubRepo}?style=social" alt="GitHub stars" />
+		</a>
+		</div>
 		</div>
 		<p class="mb-3 py-3 leading-relaxed">Create a workspace from a Git repository or sample</p>
 		<div class="flex justify-center mb-8">
