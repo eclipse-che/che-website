@@ -2,7 +2,7 @@
 import FooterCategory from './FooterCategory.svelte'; 
 import FooterCategoryLink from './FooterCategoryLink.svelte';
 import Fa from 'svelte-fa/src/fa.svelte'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faBlog } from '@fortawesome/free-solid-svg-icons'
 import EclipseCheLogo from '../logo/EclipseCheLogo.svelte';
@@ -57,7 +57,7 @@ import { variables } from '$lib/variables';
       <p class="text-gray-500 dark:text-gray-400 text-sm text-center sm:text-left">© 2023 Eclipse Che</p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
         <a target="_blank" title="github" rel="noopener noreferrer" href="https://github.com/eclipse/che" class="w-8 h-5 text-gray-500 dark:text-gray-400"><Fa icon={faGithub} /></a>
-        <a target="_blank" title="twitter" rel="noopener noreferrer" href="https://twitter.com/eclipse_che" class="w-8 h-5 text-gray-500 dark:text-gray-400"><Fa icon={faTwitter} /></a>
+        <a target="_blank" title="twitter" rel="noopener noreferrer" href="https://twitter.com/eclipse_che" class="w-8 h-5 text-gray-500 dark:text-gray-400"><Fa icon={faXTwitter} /></a>
         <a target="_blank" title="blog" rel="noopener noreferrer" href="https://che.eclipseprojects.io" class="w-8 h-5 text-gray-500 dark:text-gray-400"><Fa icon={faBlog} /></a>
       </span>
     </div>
