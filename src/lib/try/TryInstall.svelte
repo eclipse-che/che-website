@@ -43,12 +43,12 @@ onMount(() => {
 </div>
 
   <div class="relative grid gap-5 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 dark:text-gray-300">
-	<a href='https://eclipse.dev/che/docs/stable/administration-guide/installing-che-on-minikube/' target='blank' >
+	<a href='https://eclipse.dev/che/docs/stable/install/proc_installing-che-on-minikube/' target='blank' >
 		<div title="Minikube" class="w-100 h-40 p-5 flex flex-col text-center transition duration-300 bg-transparent dark:shadow-dark transform rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl items-center justify-center align-middle">
 			<MinikubeLogo />
 		</div>
 	</a>
-	<a href='https://eclipse.dev/che/docs/stable/administration-guide/installing-che-on-openshift-using-cli/' target='blank' >
+	<a href='https://eclipse.dev/che/docs/stable/install/proc_installing-che-on-red-hat-openshift-local/' target='blank' >
 		<div title="OpenShift" class="w-100 h-40 flex flex-col p-5 text-center transition duration-300 dark:shadow-dark transform rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl items-center justify-center align-middle">
 			<OpenShiftLogo />
 		</div>
