@@ -98,6 +98,10 @@
         <img src="https://raw.githubusercontent.com/jhipster/jhipster-artwork/refs/heads/main/logos/JHipster%20bowtie%20-%20square.png" alt="JHipster" width="50" height="50">
     </TryTechnology>
 
+    <TryTechnology hrefLink='https://workspaces.openshift.com#https://registry.devfile.io/devfiles/hello-openshell/1.0.0&storageType=ephemeral'>
+        <img src="https://raw.githubusercontent.com/NVIDIA/OpenShell/main/docs/brand/assets/openshell-mark.svg" alt="OpenShell" width="70" height="70">
+    </TryTechnology>
+
 </div>
 </div>
 </div>
